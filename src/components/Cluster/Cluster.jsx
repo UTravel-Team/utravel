@@ -54,23 +54,23 @@ const Cluster = () => {
   ];
 
   return (
-    <div className="grid grid-cols-8 gap-4 p-4">
+    <div className="grid grid-cols-4 gap-2 p-4">
       {cards.map((card) => (
         <div
           key={card.id}
-          className="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300 relative group"
+          className="bg-white shadow-md  overflow-hidden hover:shadow-lg transition-shadow duration-300 relative group"
         >
           {/* Imagen alargada */}
           <img
             src={card.image}
             alt={card.title}
-            className="w-full h-96 object-cover" // Cambiado h-48 por h-72
+            className="w-full h-60 object-cover "
           />
            {/* Botón siempre visible */}
-           <div className="p-4 text-center">
+           <div className="p-1 text-center">
               <Link
                 to={card.link}
-                className="inline-block  px-4 py-2 rounded hover:bg-green-400 transition"
+                className="inline-block px-4 py-2 text-l font-bold"
               >
                 {card.title}
             </Link>

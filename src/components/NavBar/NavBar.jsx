@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assets/images/logo/UNLOCK-TRAVEL.jpg";
+import logo from "../../assets/images/logo/unlock-travel-transp.png";
 
 function NavBar() {
   return (
-    <nav className="bg-gray-100 shadow-md py-4">
+    <nav className="15803D shadow-md py-4">
       <div className="container mx-auto flex items-center justify-between px-4">
         {/* Logo */}
         <Link to="/" className="flex items-center">
-          <img src={logo} alt="Logo Unlock Travel" className="custom-logo" />
+        <img src={logo} alt="Logo Unlock Travel" style={{ width: "50%" }} className="h-auto" />
         </Link>
 
         

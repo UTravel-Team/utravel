@@ -1,12 +1,13 @@
 import React from 'react';
 import CustomBrowserRouter from './components/BrowserRouter/CustomBrowserRouter';
-/* GoogleHomeMap from './components/HomeMap/HomeMap';*/
+import HomeMap from './components/HomeMap/HomeMap';
 
-function App() {
+export function App() {
   return (
-    <CustomBrowserRouter />
-    
+    <>
+      <CustomBrowserRouter />
+    </>
   );
 };
 
-export default App;
+export default App; 

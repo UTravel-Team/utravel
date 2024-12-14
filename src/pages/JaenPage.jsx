@@ -1,6 +1,6 @@
 import React from "react";
 import ProvincePage  from "../components/News/ProvincePage";
-import  ProvincesData  from "../Data/ProvincesData/ProvincesData.json";
+import  ProvincesData  from "../ProvincesData/ProvincesData.json";
  
 
 function JaenPage() {

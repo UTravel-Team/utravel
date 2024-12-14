@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import SocialMedia from "../Buttons/SocialMediaButton.jsx";
 import logo from "../../assets/images/logo/ut-transp-logo.png";
 import NavBar from "../NavBar/NavBar.jsx";
+import News from "../News/News.jsx";
 
 function Header() {
   return (
@@ -21,13 +22,13 @@ function Header() {
             className="border rounded-full p-2 w-72 focus:outline-none focus:ring-2 focus:ring-white"
             aria-label="Buscar"
           />
-
+          <News></News>
           {/* Social Media and Links */}
           <div className="flex gap-4 items-center">
             <SocialMedia /> {/* Componente de botones de redes sociales */}
             <Link
               to="/login"
-              className="bg-green-800 text-white rounded px-4 py-2 hover:bg-green-600 transition"
+              className="bg-green-800 text-white rounded px-4 py-2 hover:bg-green-600 transition flex-wrap"
             >
               Login
             </Link>

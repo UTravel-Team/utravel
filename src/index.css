@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -32,9 +34,3 @@
 .card {
   @apply bg-white p-6 rounded-lg shadow-md flex-shrink-0 w-80;
 }
-
-
-
-   
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
