@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+#map {
+  height: 500px;
+  width: 100%;
+  border: 2px solid #ccc; /* Añade un borde si lo prefieres */
+  border-radius: 8px; /* Bordes redondeados */
+}
 
 .carousel {
   @apply relative w-full flex items-center overflow-hidden;

@@ -70,7 +70,7 @@ const Cluster = () => {
            <div className="p-4 text-center">
               <Link
                 to={card.link}
-                className="inline-block bg-green-500 text-white px-4 py-2 rounded hover:bg-green-400 transition"
+                className="inline-block  px-4 py-2 rounded hover:bg-green-400 transition"
               >
                 {card.title}
             </Link>

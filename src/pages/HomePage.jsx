@@ -1,7 +1,7 @@
 import React from "react"; // Cambia "react" por "React"
 import Cluster from "../components/Cluster/Cluster"; // Asegúrate de que la ruta es correcta
 import News from "../components/News/News";
-
+/*import AndaluciaMap from "../components/HomeMap/HomeMap";*/
 
 function HomePage() {
   return (
@@ -11,7 +11,7 @@ function HomePage() {
       <h1 className="text-3xl font-bold mb-6">Home</h1>
 
       <section className="mb-6">
-        <h2 className="text-xl font-semibold mb-2">🗺️ Desbloquea Continente</h2>
+        <h2 className="text-xl font-semibold mb-2">🗺️ TENEMOS UN PROBLEMA</h2>
         <p>blablablablabalbalba</p>
         <Cluster />
       </section>
@@ -24,6 +24,7 @@ function HomePage() {
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-2">📌 Tu Mundo</h2>
         <p>blablablablabalbalba</p>
+       
       </section>
 
       <section className="mb-6">
