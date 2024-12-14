@@ -1,0 +1,97 @@
+{
+    "categoria": "Hosteleria",
+    "provincia": "Almeria",
+    "descripcion": "Opiniones sobre locales de hostelería en Almería.",
+    "comentarios": [
+        {
+            "id": 1,
+            "user": "CarlosAlm",
+            "foto_user": "https://randomuser.me/api/portraits/men/34.jpg",
+            "local_name": "Restaurante Costa Sol",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Un sitio espectacular frente al mar. La paella estaba deliciosa, pero el precio un poco elevado para las raciones.",
+            "rating": "★★★★☆"
+        },
+        {
+            "id": 2,
+            "user": "LuciaRamos",
+            "foto_user": "https://randomuser.me/api/portraits/women/38.jpg",
+            "local_name": "Bar Playa Serena",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Tapas riquísimas y camareros atentos. Aunque el lugar puede llenarse bastante los fines de semana.",
+            "rating": "★★★★★"
+        },
+        {
+            "id": 3,
+            "user": "PepeMadruga",
+            "foto_user": "https://randomuser.me/api/portraits/men/55.jpg",
+            "local_name": "Cafetería Almadraba",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "El café es excelente, pero las tostadas llegaron frías. Aun así, volvería por el ambiente tranquilo.",
+            "rating": "★★★☆☆"
+        },
+        {
+            "id": 4,
+            "user": "AnaLop",
+            "foto_user": "https://randomuser.me/api/portraits/women/50.jpg",
+            "local_name": "Chiringuito La Ola",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "La música en vivo es espectacular y las vistas al atardecer son inolvidables. Las copas, un poco caras.",
+            "rating": "★★★★☆"
+        },
+        {
+            "id": 5,
+            "user": "Mario78",
+            "foto_user": "https://randomuser.me/api/portraits/men/70.jpg",
+            "local_name": "Mesón La Alpujarra",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Comida típica almeriense muy bien preparada. El postre de leche frita fue lo mejor del día.",
+            "rating": "★★★★★"
+        },
+        {
+            "id": 6,
+            "user": "RaquelR",
+            "foto_user": "https://randomuser.me/api/portraits/women/24.jpg",
+            "local_name": "Pizzería Roma Sur",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "La pizza estaba bien, pero la espera fue eterna. Ideal si tienes tiempo de sobra.",
+            "rating": "★★☆☆☆"
+        },
+        {
+            "id": 7,
+            "user": "JuanitoPlay",
+            "foto_user": "https://randomuser.me/api/portraits/men/12.jpg",
+            "local_name": "Tapería Las Salinas",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Gran variedad de tapas y el vino local fue un descubrimiento. El sitio es pequeño, mejor reservar.",
+            "rating": "★★★★☆"
+        },
+        {
+            "id": 8,
+            "user": "MariSierra",
+            "foto_user": "https://randomuser.me/api/portraits/women/40.jpg",
+            "local_name": "Bar El Faro",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Los pescados frescos son su especialidad. El servicio, algo desorganizado.",
+            "rating": "★★★☆☆"
+        },
+        {
+            "id": 9,
+            "user": "PacoSun",
+            "foto_user": "https://randomuser.me/api/portraits/men/63.jpg",
+            "local_name": "Restaurante Mar Azul",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "El arroz negro es una delicia. Un poco caro, pero el sabor lo merece.",
+            "rating": "★★★★☆"
+        },
+        {
+            "id": 10,
+            "user": "LauraCosta",
+            "foto_user": "https://randomuser.me/api/portraits/women/22.jpg",
+            "local_name": "Bodega Almería Vieja",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Buen vino y mejor jamón. Ideal para una comida tranquila.",
+            "rating": "★★★★★"
+        }
+    ]
+}

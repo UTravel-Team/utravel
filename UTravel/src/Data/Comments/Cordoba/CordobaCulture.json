@@ -1,0 +1,97 @@
+{
+    "categoria": "Monumentos",
+    "provincia": "Cordoba",
+    "descripcion": "Opiniones sobre monumentos en Cordoba.",
+    "comentarios": [
+        {
+            "id": 141,
+            "user": "MaríaHistórica",
+            "foto_user": "https://randomuser.me/api/portraits/women/36.jpg",
+            "local_name": "Mezquita-Catedral de Córdoba",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Un monumento impresionante lleno de historia y arte. Las columnas y el altar son espectaculares.",
+            "rating": "★★★★★"
+        },
+        {
+            "id": 142,
+            "user": "AntonioMonu",
+            "foto_user": "https://randomuser.me/api/portraits/men/41.jpg",
+            "local_name": "Puente Romano",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Un puente lleno de encanto con unas vistas espectaculares, especialmente al atardecer.",
+            "rating": "★★★★★"
+        },
+        {
+            "id": 143,
+            "user": "LuciaHistoria",
+            "foto_user": "https://randomuser.me/api/portraits/women/38.jpg",
+            "local_name": "Alcázar de los Reyes Cristianos",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Un lugar histórico con jardines preciosos. El recorrido puede hacerse un poco largo.",
+            "rating": "★★★★☆"
+        },
+        {
+            "id": 144,
+            "user": "PedroPatios",
+            "foto_user": "https://randomuser.me/api/portraits/men/44.jpg",
+            "local_name": "Patios de Córdoba",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Los patios son hermosos y únicos. La organización durante el festival podría mejorar.",
+            "rating": "★★★★☆"
+        },
+        {
+            "id": 145,
+            "user": "CarmenPuertas",
+            "foto_user": "https://randomuser.me/api/portraits/women/45.jpg",
+            "local_name": "Puerta de Almodóvar",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Un lugar histórico bien conservado. Ideal para comenzar un recorrido por la Judería.",
+            "rating": "★★★★☆"
+        },
+        {
+            "id": 146,
+            "user": "CarlosAntigua",
+            "foto_user": "https://randomuser.me/api/portraits/men/33.jpg",
+            "local_name": "Sinagoga de Córdoba",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Un espacio pequeño pero con gran valor histórico. Se echa de menos más información en las visitas.",
+            "rating": "★★★☆☆"
+        },
+        {
+            "id": 147,
+            "user": "RaquelJardines",
+            "foto_user": "https://randomuser.me/api/portraits/women/40.jpg",
+            "local_name": "Jardines del Alcázar",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Los jardines son espectaculares, llenos de fuentes y flores. Perfecto para fotos.",
+            "rating": "★★★★★"
+        },
+        {
+            "id": 148,
+            "user": "ManuelRío",
+            "foto_user": "https://randomuser.me/api/portraits/men/42.jpg",
+            "local_name": "Torre de la Calahorra",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "La torre ofrece unas vistas impresionantes del río y la ciudad. El museo en su interior es interesante.",
+            "rating": "★★★★☆"
+        },
+        {
+            "id": 149,
+            "user": "AnaCórdoba",
+            "foto_user": "https://randomuser.me/api/portraits/women/34.jpg",
+            "local_name": "Plaza de la Corredera",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Una plaza histórica con mucha vida. Ideal para tomar algo y disfrutar del ambiente.",
+            "rating": "★★★★☆"
+        },
+        {
+            "id": 150,
+            "user": "JorgeLeyendas",
+            "foto_user": "https://randomuser.me/api/portraits/men/44.jpg",
+            "local_name": "Cristo de los Faroles",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Un rincón mágico de la ciudad con un ambiente muy especial, sobre todo por la noche.",
+            "rating": "★★★★★"
+        }
+    ]
+}

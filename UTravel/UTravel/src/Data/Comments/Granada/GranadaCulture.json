@@ -1,0 +1,92 @@
+[
+  {
+    "id": 201,
+    "user": "LauraMonu",
+    "foto_user": "https://randomuser.me/api/portraits/women/29.jpg",
+    "local_name": "La Alhambra",
+    "foto_local": "https://via.placeholder.com/150",
+    "opinion": "Simplemente impresionante, una maravilla arquitectónica. Asegúrate de comprar las entradas con antelación.",
+    "rating": "★★★★★"
+  },
+  {
+    "id": 202,
+    "user": "AntonioHist",
+    "foto_user": "https://randomuser.me/api/portraits/men/41.jpg",
+    "local_name": "Generalife",
+    "foto_local": "https://via.placeholder.com/150",
+    "opinion": "Los jardines son preciosos y muy bien cuidados. Perfecto para disfrutar de un paseo tranquilo.",
+    "rating": "★★★★★"
+  },
+  {
+    "id": 203,
+    "user": "LuciaCatedral",
+    "foto_user": "https://randomuser.me/api/portraits/women/35.jpg",
+    "local_name": "Catedral de Granada",
+    "foto_local": "https://via.placeholder.com/150",
+    "opinion": "Una catedral imponente con detalles arquitectónicos increíbles. El precio de la entrada es razonable.",
+    "rating": "★★★★☆"
+  },
+  {
+    "id": 204,
+    "user": "PedroCastillo",
+    "foto_user": "https://randomuser.me/api/portraits/men/36.jpg",
+    "local_name": "Cartuja de Granada",
+    "foto_local": "https://via.placeholder.com/150",
+    "opinion": "Un lugar tranquilo y lleno de arte sacro. La decoración interior es impresionante.",
+    "rating": "★★★★☆"
+  },
+  {
+    "id": 205,
+    "user": "CarmenReyes",
+    "foto_user": "https://randomuser.me/api/portraits/women/31.jpg",
+    "local_name": "Capilla Real",
+    "foto_local": "https://via.placeholder.com/150",
+    "opinion": "Un lugar histórico donde descansan los Reyes Católicos. Fascinante para los amantes de la historia.",
+    "rating": "★★★★☆"
+  },
+  {
+    "id": 206,
+    "user": "CarlosPuerta",
+    "foto_user": "https://randomuser.me/api/portraits/men/40.jpg",
+    "local_name": "Puerta de Elvira",
+    "foto_local": "https://via.placeholder.com/150",
+    "opinion": "Un rincón con mucha historia en pleno centro. Ideal para comenzar un recorrido por el Albaicín.",
+    "rating": "★★★★☆"
+  },
+  {
+    "id": 207,
+    "user": "RaquelAlhambra",
+    "foto_user": "https://randomuser.me/api/portraits/women/30.jpg",
+    "local_name": "Palacio de Carlos V",
+    "foto_local": "https://via.placeholder.com/150",
+    "opinion": "Un edificio imponente con un diseño único. El museo en su interior es interesante.",
+    "rating": "★★★★☆"
+  },
+  {
+    "id": 208,
+    "user": "ManuelMorería",
+    "foto_user": "https://randomuser.me/api/portraits/men/38.jpg",
+    "local_name": "Corral del Carbón",
+    "foto_local": "https://via.placeholder.com/150",
+    "opinion": "Un edificio histórico lleno de encanto. El patio es precioso, aunque la visita es breve.",
+    "rating": "★★★☆☆"
+  },
+  {
+    "id": 209,
+    "user": "AnaNazari",
+    "foto_user": "https://randomuser.me/api/portraits/women/39.jpg",
+    "local_name": "Baños Árabes El Bñuelo",
+    "foto_local": "https://via.placeholder.com/150",
+    "opinion": "Un pequeño rincón histórico bien conservado. Ideal para una visita corta.",
+    "rating": "★★★★☆"
+  },
+  {
+    "id": 210,
+    "user": "JorgeHistoria",
+    "foto_user": "https://randomuser.me/api/portraits/men/42.jpg",
+    "local_name": "Albaicín",
+    "foto_local": "https://via.placeholder.com/150",
+    "opinion": "Un barrio histórico con callejones encantadores y vistas inolvidables. Llevar calzado cómodo es imprescindible.",
+    "rating": "★★★★★"
+  }
+]

@@ -1,0 +1,97 @@
+{
+    "categoria": "Fiestas",
+    "provincia": "Almeria",
+    "descripcion": "Opiniones sobre fiestas en Almería.",
+    "comentarios": [
+        {
+            "id": 51,
+            "user": "LauraFestiva",
+            "foto_user": "https://randomuser.me/api/portraits/women/26.jpg",
+            "local_name": "Feria de Almería",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "La feria es espectacular, con mucho ambiente y actividades para toda la familia. Los precios en las casetas son un poco altos.",
+            "rating": "★★★★☆"
+        },
+        {
+            "id": 52,
+            "user": "CarlosRomerías",
+            "foto_user": "https://randomuser.me/api/portraits/men/35.jpg",
+            "local_name": "Romería de la Virgen del Mar",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Una experiencia única, llena de devoción y tradición. Muy recomendable, aunque hay que llegar temprano.",
+            "rating": "★★★★★"
+        },
+        {
+            "id": 53,
+            "user": "AnaVerano",
+            "foto_user": "https://randomuser.me/api/portraits/women/34.jpg",
+            "local_name": "Festival Internacional de Cine de Almería",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Un evento cultural impresionante, con películas de gran calidad. Podrían mejorar la organización en las entradas.",
+            "rating": "★★★★☆"
+        },
+        {
+            "id": 54,
+            "user": "MiguelTípico",
+            "foto_user": "https://randomuser.me/api/portraits/men/38.jpg",
+            "local_name": "Carnaval de Almería",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "El carnaval tiene un gran ambiente festivo, aunque las carrozas podrían ser más creativas.",
+            "rating": "★★★☆☆"
+        },
+        {
+            "id": 55,
+            "user": "RaquelFolk",
+            "foto_user": "https://randomuser.me/api/portraits/women/32.jpg",
+            "local_name": "Fiestas de San Juan",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "La celebración en la playa es mágica, con las hogueras y la música. Faltan más baños portátiles.",
+            "rating": "★★★★☆"
+        },
+        {
+            "id": 56,
+            "user": "PedroNoches",
+            "foto_user": "https://randomuser.me/api/portraits/men/42.jpg",
+            "local_name": "Noche en Blanco",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Una noche única para disfrutar del arte y la cultura. Las calles estaban abarrotadas, pero valió la pena.",
+            "rating": "★★★★☆"
+        },
+        {
+            "id": 57,
+            "user": "CarmenTradición",
+            "foto_user": "https://randomuser.me/api/portraits/women/41.jpg",
+            "local_name": "Semana Santa de Almería",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Procesiones emocionantes y muy bien organizadas. Un evento imprescindible si visitas Almería en esas fechas.",
+            "rating": "★★★★★"
+        },
+        {
+            "id": 58,
+            "user": "JuanPopular",
+            "foto_user": "https://randomuser.me/api/portraits/men/30.jpg",
+            "local_name": "Festival Flamenco de Almería",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Un espectáculo increíble de música y baile. El lugar estaba un poco lleno, pero la experiencia fue maravillosa.",
+            "rating": "★★★★☆"
+        },
+        {
+            "id": 59,
+            "user": "IsabelCultura",
+            "foto_user": "https://randomuser.me/api/portraits/women/25.jpg",
+            "local_name": "Fiestas Patronales de San Isidro",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Unas fiestas llenas de actividades tradicionales y buen ambiente. Muy auténticas y familiares.",
+            "rating": "★★★★★"
+        },
+        {
+            "id": 60,
+            "user": "ManuelDiversión",
+            "foto_user": "https://randomuser.me/api/portraits/men/29.jpg",
+            "local_name": "Noche de San Lorenzo",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Una noche mágica para observar las estrellas. La organización podría mejorar para reducir la contaminación lumínica.",
+            "rating": "★★★☆☆"
+        }
+    ]
+}

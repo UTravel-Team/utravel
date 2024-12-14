@@ -1,0 +1,97 @@
+{
+  "categoria": "ocio",
+  "provincia": "Granada",
+  "descripcion": "Opiniones sobre ocio en Granada.",
+  "comentarios": [
+    {
+      "id": 191,
+      "user": "MaríaArte",
+      "foto_user": "https://randomuser.me/api/portraits/women/31.jpg",
+      "local_name": "Museo de la Alhambra",
+      "foto_local": "https://via.placeholder.com/150",
+      "opinion": "Un lugar imprescindible para entender la historia de la Alhambra. Las exposiciones son fascinantes.",
+      "rating": "★★★★★"
+    },
+    {
+      "id": 192,
+      "user": "AntonioCultura",
+      "foto_user": "https://randomuser.me/api/portraits/men/42.jpg",
+      "local_name": "Centro Federico García Lorca",
+      "foto_local": "https://via.placeholder.com/150",
+      "opinion": "Un espacio cultural dedicado al poeta, con exposiciones y actividades interesantes. Muy recomendable.",
+      "rating": "★★★★★"
+    },
+    {
+      "id": 193,
+      "user": "LuciaFlamenco",
+      "foto_user": "https://randomuser.me/api/portraits/women/35.jpg",
+      "local_name": "Tablao Flamenco Albayzín",
+      "foto_local": "https://via.placeholder.com/150",
+      "opinion": "Un espectáculo auténtico en un lugar muy pintoresco. La acústica es increíble.",
+      "rating": "★★★★★"
+    },
+    {
+      "id": 194,
+      "user": "PedroHist",
+      "foto_user": "https://randomuser.me/api/portraits/men/39.jpg",
+      "local_name": "Parque de las Ciencias",
+      "foto_local": "https://via.placeholder.com/150",
+      "opinion": "Un museo interactivo perfecto para todas las edades. La zona del planetario es mi favorita.",
+      "rating": "★★★★★"
+    },
+    {
+      "id": 195,
+      "user": "CarmenHistoria",
+      "foto_user": "https://randomuser.me/api/portraits/women/38.jpg",
+      "local_name": "Casa Museo Manuel de Falla",
+      "foto_local": "https://via.placeholder.com/150",
+      "opinion": "Una visita interesante para los amantes de la música y la historia. El recorrido es algo corto.",
+      "rating": "★★★★☆"
+    },
+    {
+      "id": 196,
+      "user": "CarlosEspectáculo",
+      "foto_user": "https://randomuser.me/api/portraits/men/36.jpg",
+      "local_name": "Teatro Isabel la Católica",
+      "foto_local": "https://via.placeholder.com/150",
+      "opinion": "Un teatro clásico con buena programación cultural. Las butacas son un poco incómodas.",
+      "rating": "★★★☆☆"
+    },
+    {
+      "id": 197,
+      "user": "RaquelArte",
+      "foto_user": "https://randomuser.me/api/portraits/women/30.jpg",
+      "local_name": "Palacio de los Olvidados",
+      "foto_local": "https://via.placeholder.com/150",
+      "opinion": "Un museo con exposiciones originales y sorprendentes, especialmente sobre la Inquisición.",
+      "rating": "★★★★☆"
+    },
+    {
+      "id": 198,
+      "user": "ManuelVistas",
+      "foto_user": "https://randomuser.me/api/portraits/men/45.jpg",
+      "local_name": "Mirador de San Nicolás",
+      "foto_local": "https://via.placeholder.com/150",
+      "opinion": "Un lugar mágico para disfrutar de las mejores vistas de la Alhambra al atardecer. Siempre lleno de gente.",
+      "rating": "★★★★★"
+    },
+    {
+      "id": 199,
+      "user": "AnaCultura",
+      "foto_user": "https://randomuser.me/api/portraits/women/33.jpg",
+      "local_name": "Museo Caja Granada",
+      "foto_local": "https://via.placeholder.com/150",
+      "opinion": "Un museo moderno y bien organizado. La sección sobre la historia de Andalucía es muy interesante.",
+      "rating": "★★★★☆"
+    },
+    {
+      "id": 200,
+      "user": "JorgeMusical",
+      "foto_user": "https://randomuser.me/api/portraits/men/40.jpg",
+      "local_name": "Auditorio Manuel de Falla",
+      "foto_local": "https://via.placeholder.com/150",
+      "opinion": "Un auditorio con acústica excelente y conciertos de gran calidad. El aparcamiento puede ser complicado.",
+      "rating": "★★★★☆"
+    }
+  ]
+}

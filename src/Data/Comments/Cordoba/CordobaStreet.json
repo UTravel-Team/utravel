@@ -1,0 +1,97 @@
+{
+    "categoria": "Limpieza en la Calle",
+    "provincia": "Cordoba",
+    "descripcion": "Opiniones sobre Limpieza en Cordoba.",
+    "comentarios": [
+        {
+            "id": 161,
+            "user": "MaríaVecina",
+            "foto_user": "https://randomuser.me/api/portraits/women/33.jpg",
+            "local_name": "Casco Antiguo de Córdoba",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "El casco antiguo está muy limpio, especialmente en las zonas turísticas. Algunas calles secundarias necesitan más atención.",
+            "rating": "★★★★☆"
+        },
+        {
+            "id": 162,
+            "user": "AntonioCalle",
+            "foto_user": "https://randomuser.me/api/portraits/men/35.jpg",
+            "local_name": "Paseo de la Ribera",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Un paseo agradable y bien cuidado. Las papeleras siempre están vacías, lo cual es un plus.",
+            "rating": "★★★★★"
+        },
+        {
+            "id": 163,
+            "user": "LuciaAmbiente",
+            "foto_user": "https://randomuser.me/api/portraits/women/38.jpg",
+            "local_name": "Barrio de San Basilio",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "El barrio está limpio y es muy pintoresco, aunque en horas punta puede haber acumulación de residuos.",
+            "rating": "★★★★☆"
+        },
+        {
+            "id": 164,
+            "user": "PedroOrden",
+            "foto_user": "https://randomuser.me/api/portraits/men/44.jpg",
+            "local_name": "Plaza de las Tendillas",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Una plaza céntrica que siempre está bien mantenida. El mobiliario urbano está en buen estado.",
+            "rating": "★★★★★"
+        },
+        {
+            "id": 165,
+            "user": "CarmenLimpia",
+            "foto_user": "https://randomuser.me/api/portraits/women/45.jpg",
+            "local_name": "Judería de Córdoba",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "La Judería es preciosa y está bien cuidada. Algunas zonas menos transitadas tienen grafitis.",
+            "rating": "★★★☆☆"
+        },
+        {
+            "id": 166,
+            "user": "CarlosVecindario",
+            "foto_user": "https://randomuser.me/api/portraits/men/42.jpg",
+            "local_name": "Parque Cruz Conde",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "El parque está limpio y es ideal para pasear. Las fuentes necesitan mantenimiento.",
+            "rating": "★★★★☆"
+        },
+        {
+            "id": 167,
+            "user": "RaquelCuidado",
+            "foto_user": "https://randomuser.me/api/portraits/women/46.jpg",
+            "local_name": "Plaza del Potro",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Una plaza con mucho encanto y siempre limpia. Ideal para descansar durante una visita al centro.",
+            "rating": "★★★★★"
+        },
+        {
+            "id": 168,
+            "user": "ManuelZona",
+            "foto_user": "https://randomuser.me/api/portraits/men/39.jpg",
+            "local_name": "Avenida de la Victoria",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Una avenida amplia y bien cuidada. Faltan más papeleras en algunos tramos.",
+            "rating": "★★★★☆"
+        },
+        {
+            "id": 169,
+            "user": "AnaCalles",
+            "foto_user": "https://randomuser.me/api/portraits/women/34.jpg",
+            "local_name": "Calleja de las Flores",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Un rincón precioso que está muy bien mantenido. Se nota el esfuerzo en la limpieza.",
+            "rating": "★★★★★"
+        },
+        {
+            "id": 170,
+            "user": "JorgeTranquilo",
+            "foto_user": "https://randomuser.me/api/portraits/men/44.jpg",
+            "local_name": "Parque de Miraflores",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "El parque está limpio y bien diseñado. Ideal para pasear, aunque algunas zonas necesitan más cuidado.",
+            "rating": "★★★★☆"
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "categoria": "Fiestas",
+    "provincia": "Cordoba",
+    "descripcion": "Opiniones sobre locales de fiestas en Cordoba.",
+    "comentarios": [
+        {
+            "id": 171,
+            "user": "LauraFiestas",
+            "foto_user": "https://randomuser.me/api/portraits/women/29.jpg",
+            "local_name": "Festival de los Patios Cordobeses",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Un evento espectacular lleno de color y vida. Los patios están hermosos, pero hay que tener paciencia con las filas.",
+            "rating": "★★★★★"
+        },
+        {
+            "id": 172,
+            "user": "AntonioCruz",
+            "foto_user": "https://randomuser.me/api/portraits/men/36.jpg",
+            "local_name": "Cruces de Mayo",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Una fiesta muy animada con música, flores y tapas. A veces hay demasiada gente.",
+            "rating": "★★★★☆"
+        },
+        {
+            "id": 173,
+            "user": "LuciaCaballos",
+            "foto_user": "https://randomuser.me/api/portraits/women/38.jpg",
+            "local_name": "Feria de Córdoba",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "La feria es enorme y llena de actividades. Las casetas tienen mucho ambiente, aunque los precios son algo elevados.",
+            "rating": "★★★★☆"
+        },
+        {
+            "id": 174,
+            "user": "PedroReligión",
+            "foto_user": "https://randomuser.me/api/portraits/men/33.jpg",
+            "local_name": "Semana Santa de Córdoba",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Procesiones impresionantes y un ambiente muy emotivo. Las calles se llenan, pero es una experiencia única.",
+            "rating": "★★★★★"
+        },
+        {
+            "id": 175,
+            "user": "CarmenSol",
+            "foto_user": "https://randomuser.me/api/portraits/women/35.jpg",
+            "local_name": "Romería de la Virgen de Linares",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Una romería preciosa con un ambiente familiar. Lástima que falten más baños públicos.",
+            "rating": "★★★★☆"
+        },
+        {
+            "id": 176,
+            "user": "CarlosNoches",
+            "foto_user": "https://randomuser.me/api/portraits/men/38.jpg",
+            "local_name": "Noche Blanca del Flamenco",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Un evento mágico con flamenco en cada rincón de la ciudad. Es difícil abarcar todos los espectáculos.",
+            "rating": "★★★★★"
+        },
+        {
+            "id": 177,
+            "user": "RaquelAmigos",
+            "foto_user": "https://randomuser.me/api/portraits/women/46.jpg",
+            "local_name": "Cata del Vino Montilla-Moriles",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Una cata espectacular con vinos deliciosos. Perfecto para disfrutar con amigos, aunque se llena mucho.",
+            "rating": "★★★★☆"
+        },
+        {
+            "id": 178,
+            "user": "ManuelArte",
+            "foto_user": "https://randomuser.me/api/portraits/men/39.jpg",
+            "local_name": "Festival Internacional de la Guitarra",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Un evento cultural de altísimo nivel. Los conciertos son increíbles, aunque algunas entradas son caras.",
+            "rating": "★★★★☆"
+        },
+        {
+            "id": 179,
+            "user": "AnaFlores",
+            "foto_user": "https://randomuser.me/api/portraits/women/34.jpg",
+            "local_name": "Batalla de las Flores",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Un desfile lleno de alegría y color. Los niños lo disfrutan mucho, pero hay que llegar temprano para un buen lugar.",
+            "rating": "★★★★★"
+        },
+        {
+            "id": 180,
+            "user": "JorgeTradición",
+            "foto_user": "https://randomuser.me/api/portraits/men/44.jpg",
+            "local_name": "Fiesta de la Virgen de los Faroles",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Un evento tradicional y emotivo. Es ideal para quienes buscan algo más tranquilo y espiritual.",
+            "rating": "★★★★★"
+        }
+    ]
+}

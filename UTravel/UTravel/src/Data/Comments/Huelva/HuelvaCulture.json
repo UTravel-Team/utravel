@@ -1,0 +1,98 @@
+{
+    "categoria": "cultura",
+    "provincia": "Huelva",
+    "descripcion": "Opiniones sobre sitios culturales en Huelva.",
+    "comentarios": [
+      {
+        "id": 261,
+        "user": "LauraHistoria",
+        "foto_user": "https://randomuser.me/api/portraits/women/30.jpg",
+        "local_name": "Monasterio de La Rábida",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Un lugar cargado de historia relacionado con Colón. La visita guiada es muy recomendable.",
+        "rating": "★★★★★"
+      },
+      {
+        "id": 262,
+        "user": "AntonioColón",
+        "foto_user": "https://randomuser.me/api/portraits/men/33.jpg",
+        "local_name": "Muelle de las Carabelas",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Las réplicas de las carabelas son impresionantes. Ideal para familias con niños.",
+        "rating": "★★★★★"
+      },
+      {
+        "id": 263,
+        "user": "LuciaMuelle",
+        "foto_user": "https://randomuser.me/api/portraits/women/32.jpg",
+        "local_name": "Muelle del Tinto",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Un paseo precioso con vistas al río. Perfecto para disfrutar del atardecer.",
+        "rating": "★★★★★"
+      },
+      {
+        "id": 264,
+        "user": "PedroCristiano",
+        "foto_user": "https://randomuser.me/api/portraits/men/40.jpg",
+        "local_name": "Santuario de Nuestra Señora de la Cinta",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Un santuario precioso y lleno de historia. La vista desde aquí es espectacular.",
+        "rating": "★★★★☆"
+      },
+      {
+        "id": 265,
+        "user": "CarmenCastillo",
+        "foto_user": "https://randomuser.me/api/portraits/women/38.jpg",
+        "local_name": "Castillo de Niebla",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Un castillo impresionante con mucha historia. Ideal para los amantes de la arquitectura medieval.",
+        "rating": "★★★★☆"
+      },
+      {
+        "id": 266,
+        "user": "CarlosRuinas",
+        "foto_user": "https://randomuser.me/api/portraits/men/36.jpg",
+        "local_name": "Ruinas de Saltés",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Un yacimiento arqueológico interesante, aunque faltan más explicaciones para entender su importancia.",
+        "rating": "★★★☆☆"
+      },
+      {
+        "id": 267,
+        "user": "RaquelMonu",
+        "foto_user": "https://randomuser.me/api/portraits/women/39.jpg",
+        "local_name": "Iglesia de San Pedro",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Una iglesia preciosa en pleno centro de Huelva. Perfecta para una visita breve.",
+        "rating": "★★★★☆"
+      },
+      {
+        "id": 268,
+        "user": "ManuelHistórico",
+        "foto_user": "https://randomuser.me/api/portraits/men/45.jpg",
+        "local_name": "Torre Almenara",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Un lugar con mucho encanto y buenas vistas al océano. Ideal para los amantes de la fotografía.",
+        "rating": "★★★★☆"
+      },
+      {
+        "id": 269,
+        "user": "AnaTranquila",
+        "foto_user": "https://randomuser.me/api/portraits/women/37.jpg",
+        "local_name": "Ermita de El Rocío",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Una ermita preciosa con un ambiente único. Muy recomendable si estás en la zona.",
+        "rating": "★★★★★"
+      },
+      {
+        "id": 270,
+        "user": "JorgeHistórico",
+        "foto_user": "https://randomuser.me/api/portraits/men/50.jpg",
+        "local_name": "Plaza de las Monjas",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Una plaza emblemática con mucha historia y un ambiente agradable. Perfecta para un paseo.",
+        "rating": "★★★★☆"
+      }
+    ]
+  }
+  

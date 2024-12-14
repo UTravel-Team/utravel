@@ -1,0 +1,98 @@
+{
+    "categoria": "Alojamiento",
+    "provincia": "Granada",
+    "descripcion": "Opiniones sobre alojamiento en Granada.",
+    "comentarios": [
+      {
+        "id": 211,
+        "user": "MaríaLujo",
+        "foto_user": "https://randomuser.me/api/portraits/women/32.jpg",
+        "local_name": "Hotel Alhambra Palace",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Un hotel espectacular con vistas increíbles y un servicio excelente. Ideal para una escapada de lujo.",
+        "rating": "★★★★★"
+      },
+      {
+        "id": 212,
+        "user": "AntonioVacaciones",
+        "foto_user": "https://randomuser.me/api/portraits/men/45.jpg",
+        "local_name": "Parador de Granada",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Ubicado dentro de la Alhambra, el entorno es inmejorable. Las habitaciones son cómodas pero algo caras.",
+        "rating": "★★★★☆"
+      },
+      {
+        "id": 213,
+        "user": "LuciaEstilo",
+        "foto_user": "https://randomuser.me/api/portraits/women/39.jpg",
+        "local_name": "Casa del Capitel Nazarí",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Un hotel boutique encantador en el Albaicín. Perfecto para una estancia tranquila.",
+        "rating": "★★★★★"
+      },
+      {
+        "id": 214,
+        "user": "PedroRural",
+        "foto_user": "https://randomuser.me/api/portraits/men/41.jpg",
+        "local_name": "Cortijo del Arte",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Un alojamiento rural en un entorno precioso. Perfecto para desconectar de la ciudad.",
+        "rating": "★★★★☆"
+      },
+      {
+        "id": 215,
+        "user": "CarmenFamilia",
+        "foto_user": "https://randomuser.me/api/portraits/women/36.jpg",
+        "local_name": "Apartamentos Elvira Suites",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Apartamentos amplios y modernos en pleno centro. Perfecto para familias.",
+        "rating": "★★★★★"
+      },
+      {
+        "id": 216,
+        "user": "CarlosCéntrico",
+        "foto_user": "https://randomuser.me/api/portraits/men/40.jpg",
+        "local_name": "Hotel Vincci Albayzín",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Un hotel elegante y céntrico. La atención del personal es excelente.",
+        "rating": "★★★★★"
+      },
+      {
+        "id": 217,
+        "user": "RaquelRelajante",
+        "foto_user": "https://randomuser.me/api/portraits/women/33.jpg",
+        "local_name": "Hotel Casa Morisca",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Un hotel con encanto en un edificio histórico. Las vistas desde las habitaciones son espectaculares.",
+        "rating": "★★★★☆"
+      },
+      {
+        "id": 218,
+        "user": "ManuelAventura",
+        "foto_user": "https://randomuser.me/api/portraits/men/38.jpg",
+        "local_name": "Hostal Verona",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Un hostal sencillo pero muy limpio y cómodo. Ideal para estancias cortas.",
+        "rating": "★★★☆☆"
+      },
+      {
+        "id": 219,
+        "user": "AnaRomántica",
+        "foto_user": "https://randomuser.me/api/portraits/women/34.jpg",
+        "local_name": "Hotel Shine Albayzín",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Un lugar romántico y bien situado. Las habitaciones tienen una decoración preciosa.",
+        "rating": "★★★★★"
+      },
+      {
+        "id": 220,
+        "user": "JorgeTranquilo",
+        "foto_user": "https://randomuser.me/api/portraits/men/44.jpg",
+        "local_name": "Pensión Granada Centro",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Una opción económica en pleno centro de la ciudad. Buen trato del personal.",
+        "rating": "★★★★☆"
+      }
+    ]
+  }
+  

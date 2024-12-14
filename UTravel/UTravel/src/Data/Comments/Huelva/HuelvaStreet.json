@@ -1,0 +1,98 @@
+{
+    "categoria": "limpieza",
+    "provincia": "Huelva",
+    "descripcion": "Opiniones sobre locales de limpieza en Huelva.",
+    "comentarios": [
+      {
+        "id": 281,
+        "user": "MariaCiudad",
+        "foto_user": "https://randomuser.me/api/portraits/women/31.jpg",
+        "local_name": "Plaza de las Monjas",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "La plaza está muy limpia y bien cuidada. Un lugar perfecto para pasear y relajarse.",
+        "rating": "⭐⭐⭐⭐⭐"
+      },
+      {
+        "id": 282,
+        "user": "AntonioBarrio",
+        "foto_user": "https://randomuser.me/api/portraits/men/33.jpg",
+        "local_name": "Barrio Reina Victoria",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Un barrio pintoresco y bien mantenido. Ideal para los amantes de la fotografía.",
+        "rating": "⭐⭐⭐⭐☆"
+      },
+      {
+        "id": 283,
+        "user": "LuciaParques",
+        "foto_user": "https://randomuser.me/api/portraits/women/39.jpg",
+        "local_name": "Parque Moret",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "El parque está limpio y es perfecto para actividades al aire libre. Podrían mejorar los baños.",
+        "rating": "⭐⭐⭐⭐☆"
+      },
+      {
+        "id": 284,
+        "user": "PedroRia",
+        "foto_user": "https://randomuser.me/api/portraits/men/40.jpg",
+        "local_name": "Paseo de la Ría",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "El paseo es precioso y está bien cuidado. Es un placer caminar junto al río.",
+        "rating": "⭐⭐⭐⭐⭐"
+      },
+      {
+        "id": 285,
+        "user": "CarmenCentro",
+        "foto_user": "https://randomuser.me/api/portraits/women/38.jpg",
+        "local_name": "Centro Histórico de Huelva",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "El centro suele estar limpio, pero en eventos puede acumularse basura por la noche.",
+        "rating": "⭐⭐⭐☆☆"
+      },
+      {
+        "id": 286,
+        "user": "CarlosPlayas",
+        "foto_user": "https://randomuser.me/api/portraits/men/36.jpg",
+        "local_name": "Playa del Espigón",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Una playa preciosa, pero a veces se encuentran restos de basura en la arena.",
+        "rating": "⭐⭐⭐☆☆"
+      },
+      {
+        "id": 287,
+        "user": "RaquelAmbiental",
+        "foto_user": "https://randomuser.me/api/portraits/women/35.jpg",
+        "local_name": "Jardines de la Merced",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Unos jardines tranquilos y bien mantenidos. Perfecto para relajarse.",
+        "rating": "⭐⭐⭐⭐☆"
+      },
+      {
+        "id": 288,
+        "user": "ManuelOrden",
+        "foto_user": "https://randomuser.me/api/portraits/men/42.jpg",
+        "local_name": "Avenida de Andalucía",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Una avenida limpia y bien cuidada. Los espacios verdes están en buen estado.",
+        "rating": "⭐⭐⭐⭐☆"
+      },
+      {
+        "id": 289,
+        "user": "AnaCalles",
+        "foto_user": "https://randomuser.me/api/portraits/women/30.jpg",
+        "local_name": "Calle Concepción",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Una calle comercial limpia y muy transitada. Las papeleras se llenan rápido en horas punta.",
+        "rating": "⭐⭐⭐⭐☆"
+      },
+      {
+        "id": 290,
+        "user": "JorgeTranquilo",
+        "foto_user": "https://randomuser.me/api/portraits/men/44.jpg",
+        "local_name": "Parque Zafra",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Un parque bien cuidado con zonas verdes amplias. Ideal para pasear o hacer deporte.",
+        "rating": "⭐⭐⭐⭐⭐"
+      }
+    ]
+  }
+  

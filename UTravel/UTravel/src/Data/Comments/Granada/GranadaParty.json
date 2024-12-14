@@ -1,0 +1,97 @@
+{
+  "categoria": "Fiestas",
+  "provincia": "Granada",
+  "descripcion": "Opiniones sobre locales de hostelería en Granada.",
+  "comentarios": [
+    {
+      "id": 231,
+      "user": "LauraFestiva",
+      "foto_user": "https://randomuser.me/api/portraits/women/32.jpg",
+      "local_name": "Fiestas del Corpus Christi",
+      "foto_local": "https://via.placeholder.com/150",
+      "opinion": "Una de las mejores fiestas de Granada, con un ambiente increíble y actividades para toda la familia. Las atracciones pueden ser algo caras.",
+      "rating": "★★★★☆"
+    },
+    {
+      "id": 232,
+      "user": "AntonioSemana",
+      "foto_user": "https://randomuser.me/api/portraits/men/35.jpg",
+      "local_name": "Semana Santa de Granada",
+      "foto_local": "https://via.placeholder.com/150",
+      "opinion": "Procesiones muy emotivas con la Alhambra como telón de fondo. La organización es impecable.",
+      "rating": "★★★★★"
+    },
+    {
+      "id": 233,
+      "user": "LuciaFlamenco",
+      "foto_user": "https://randomuser.me/api/portraits/women/30.jpg",
+      "local_name": "Festival Internacional de Música y Danza",
+      "foto_local": "https://via.placeholder.com/150",
+      "opinion": "Un evento cultural único con espectáculos impresionantes. Las entradas pueden agotarse rápido.",
+      "rating": "★★★★★"
+    },
+    {
+      "id": 234,
+      "user": "PedroTípico",
+      "foto_user": "https://randomuser.me/api/portraits/men/41.jpg",
+      "local_name": "Cruces de Mayo",
+      "foto_local": "https://via.placeholder.com/150",
+      "opinion": "Las calles se llenan de color y alegría. Las cruces decoradas son preciosas, aunque a veces hay demasiado ruido.",
+      "rating": "★★★★☆"
+    },
+    {
+      "id": 235,
+      "user": "CarmenRomería",
+      "foto_user": "https://randomuser.me/api/portraits/women/33.jpg",
+      "local_name": "Romería de San Cecilio",
+      "foto_local": "https://via.placeholder.com/150",
+      "opinion": "Una romería tradicional con un ambiente muy familiar. Perfecta para disfrutar de la naturaleza y la devoción local.",
+      "rating": "★★★★★"
+    },
+    {
+      "id": 236,
+      "user": "CarlosNoches",
+      "foto_user": "https://randomuser.me/api/portraits/men/38.jpg",
+      "local_name": "Noche en Blanco",
+      "foto_local": "https://via.placeholder.com/150",
+      "opinion": "Un evento único para disfrutar del arte y la cultura en cada rincón de la ciudad.",
+      "rating": "★★★★☆"
+    },
+    {
+      "id": 237,
+      "user": "RaquelArte",
+      "foto_user": "https://randomuser.me/api/portraits/women/35.jpg",
+      "local_name": "Festival de Jazz en el Lago",
+      "foto_local": "https://via.placeholder.com/150",
+      "opinion": "Un festival al aire libre con música de calidad en un entorno precioso. Las sillas son algo incómodas.",
+      "rating": "★★★★☆"
+    },
+    {
+      "id": 238,
+      "user": "ManuelCarnaval",
+      "foto_user": "https://randomuser.me/api/portraits/men/42.jpg",
+      "local_name": "Carnaval de Granada",
+      "foto_local": "https://via.placeholder.com/150",
+      "opinion": "Un carnaval animado y lleno de creatividad. Los disfraces son geniales, pero hay demasiada gente en algunos momentos.",
+      "rating": "★★★★☆"
+    },
+    {
+      "id": 239,
+      "user": "AnaFolclore",
+      "foto_user": "https://randomuser.me/api/portraits/women/36.jpg",
+      "local_name": "Zoco de Artesanía del Albaicín",
+      "foto_local": "https://via.placeholder.com/150",
+      "opinion": "Una fiesta artesanal encantadora con productos únicos. Ideal para llevarte un recuerdo auténtico.",
+      "rating": "★★★★★"
+    },
+    {
+      "id": 240,
+      "user": "JorgeTradición",
+      "foto_user": "https://randomuser.me/api/portraits/men/39.jpg",
+      "local_name": "Fiestas de Moros y Cristianos",
+      "foto_local": "https://via.placeholder.com/150",
+      "opinion": "Un evento histórico y cultural fascinante. Los desfiles son espectaculares, aunque a veces se alargan demasiado.",
+      "rating": "★★★★☆"
+    }
+  ]
+}

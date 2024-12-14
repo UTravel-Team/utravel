@@ -1,0 +1,97 @@
+{
+    "categoria": "Alojamiento",
+    "provincia": "Almeria",
+    "descripcion": "Opiniones sobre alojamiento en Almería.",
+    "comentarios": [
+        {
+            "id": 31,
+            "user": "LauraVacaciones",
+            "foto_user": "https://randomuser.me/api/portraits/women/21.jpg",
+            "local_name": "Hotel Costa Almería",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "El hotel es muy moderno y está bien situado, pero el desayuno buffet podría tener más variedad.",
+            "rating": "★★★★☆"
+        },
+        {
+            "id": 32,
+            "user": "PedroHostal",
+            "foto_user": "https://randomuser.me/api/portraits/men/32.jpg",
+            "local_name": "Hostal Sol y Mar",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Un hostal sencillo pero muy limpio. Ideal para quienes buscan algo económico y cercano a la playa.",
+            "rating": "★★★★☆"
+        },
+        {
+            "id": 33,
+            "user": "SaraWeekend",
+            "foto_user": "https://randomuser.me/api/portraits/women/29.jpg",
+            "local_name": "Apartamentos Alborán",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Los apartamentos son amplios y cómodos, pero no están tan cerca del centro como esperaba.",
+            "rating": "★★★☆☆"
+        },
+        {
+            "id": 34,
+            "user": "CarlosFamilia",
+            "foto_user": "https://randomuser.me/api/portraits/men/40.jpg",
+            "local_name": "Resort Playa Serena",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Un resort perfecto para familias, con muchas actividades para niños. La comida del buffet podría mejorar.",
+            "rating": "★★★★☆"
+        },
+        {
+            "id": 35,
+            "user": "AnaTurismo",
+            "foto_user": "https://randomuser.me/api/portraits/women/38.jpg",
+            "local_name": "Casa Rural Las Alpujarras",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Una experiencia inolvidable en plena naturaleza. La casa está bien equipada y el entorno es espectacular.",
+            "rating": "★★★★★"
+        },
+        {
+            "id": 36,
+            "user": "ManuelViajero",
+            "foto_user": "https://randomuser.me/api/portraits/men/50.jpg",
+            "local_name": "Pensión Mediterráneo",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Una opción económica para quienes viajan solos. La habitación era pequeña pero cómoda.",
+            "rating": "★★★☆☆"
+        },
+        {
+            "id": 37,
+            "user": "ClaudiaRelax",
+            "foto_user": "https://randomuser.me/api/portraits/women/45.jpg",
+            "local_name": "Spa Hotel El Cabo",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Un hotel con spa perfecto para relajarse. El servicio fue excepcional, aunque el spa es pequeño.",
+            "rating": "★★★★★"
+        },
+        {
+            "id": 38,
+            "user": "PepeViaje",
+            "foto_user": "https://randomuser.me/api/portraits/men/26.jpg",
+            "local_name": "Camping Los Escullos",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Un camping con muy buen ambiente y servicios completos. Las parcelas son algo pequeñas.",
+            "rating": "★★★★☆"
+        },
+        {
+            "id": 39,
+            "user": "RaquelDescanso",
+            "foto_user": "https://randomuser.me/api/portraits/women/54.jpg",
+            "local_name": "Hotel Mar Azul",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Habitaciones limpias y personal muy amable. El WiFi podría ser más rápido.",
+            "rating": "★★★★☆"
+        },
+        {
+            "id": 40,
+            "user": "JorgeEscapada",
+            "foto_user": "https://randomuser.me/api/portraits/men/60.jpg",
+            "local_name": "Hotel Rural La Encina",
+            "foto_local": "https://via.placeholder.com/150",
+            "opinion": "Un hotel rural acogedor, perfecto para desconectar. El desayuno casero fue lo mejor.",
+            "rating": "★★★★★"
+        }
+    ]
+}

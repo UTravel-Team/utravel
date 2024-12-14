@@ -1,0 +1,98 @@
+{
+    "categoria": "hostelería",
+    "provincia": "Huelva",
+    "descripcion": "Opiniones sobre locales de hostelería en Huelva.",
+    "comentarios": [
+      {
+        "id": 241,
+        "user": "AntonioMar",
+        "foto_user": "https://randomuser.me/api/portraits/men/33.jpg",
+        "local_name": "Restaurante La Ría",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Un lugar excelente para probar pescado fresco. El choco frito es imprescindible.",
+        "rating": "★★★★★"
+      },
+      {
+        "id": 242,
+        "user": "LuciaTapas",
+        "foto_user": "https://randomuser.me/api/portraits/women/31.jpg",
+        "local_name": "Bar Casa Miguel",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Las tapas son generosas y el precio razonable. Perfecto para ir con amigos.",
+        "rating": "★★★★"
+      },
+      {
+        "id": 243,
+        "user": "PedroRico",
+        "foto_user": "https://randomuser.me/api/portraits/men/39.jpg",
+        "local_name": "Mesón Jamón y Vino",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Un lugar ideal para degustar jamón ibérico de Huelva. El servicio es rápido y amable.",
+        "rating": "★★★★★"
+      },
+      {
+        "id": 244,
+        "user": "CarmenSabores",
+        "foto_user": "https://randomuser.me/api/portraits/women/30.jpg",
+        "local_name": "Taberna La Gamba Roja",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Las gambas son espectaculares, aunque el lugar puede llenarse bastante en horas punta.",
+        "rating": "★★★★"
+      },
+      {
+        "id": 245,
+        "user": "CarlosCena",
+        "foto_user": "https://randomuser.me/api/portraits/men/38.jpg",
+        "local_name": "Restaurante Playa Blanca",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Un restaurante con vistas al mar. La comida es excelente, aunque el servicio puede ser algo lento.",
+        "rating": "★★★★"
+      },
+      {
+        "id": 246,
+        "user": "RaquelTranquila",
+        "foto_user": "https://randomuser.me/api/portraits/women/29.jpg",
+        "local_name": "Cafetería La Plaza",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Un lugar tranquilo para desayunar. Los churros y el café son muy buenos.",
+        "rating": "★★★★★"
+      },
+      {
+        "id": 247,
+        "user": "ManuelMariscos",
+        "foto_user": "https://randomuser.me/api/portraits/men/44.jpg",
+        "local_name": "Marisquería El Puerto",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Mariscos frescos a buen precio. Las coquinas son espectaculares. Mejor reservar.",
+        "rating": "★★★★"
+      },
+      {
+        "id": 248,
+        "user": "AnaCentro",
+        "foto_user": "https://randomuser.me/api/portraits/women/36.jpg",
+        "local_name": "Tapería El Paseo",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Una opción muy buena para tapear en el centro. Las albóndigas de choco son deliciosas.",
+        "rating": "★★★★"
+      },
+      {
+        "id": 249,
+        "user": "JorgeCosta",
+        "foto_user": "https://randomuser.me/api/portraits/men/35.jpg",
+        "local_name": "Restaurante Miramar",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Un restaurante elegante con platos elaborados. Las vistas son increíbles, pero el precio es elevado.",
+        "rating": "★★★★"
+      },
+      {
+        "id": 250,
+        "user": "IsabelDulce",
+        "foto_user": "https://randomuser.me/api/portraits/women/40.jpg",
+        "local_name": "Pastelería Dulce Huelva",
+        "foto_local": "https://via.placeholder.com/150",
+        "opinion": "Los pasteles y tartas son deliciosos. Perfecto para merendar. El café podría mejorar.",
+        "rating": "★★★★"
+      }
+    ]
+  }
+  
