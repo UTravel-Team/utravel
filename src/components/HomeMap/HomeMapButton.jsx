@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import HomeMap from "./HomeMap"; // Importa el componente del mapa
+import { Link } from "react-router-dom";navigator
 
 const HomeMapButton = () => {
   const [showMap, setShowMap] = useState(false); // Estado para controlar la visibilidad del mapa

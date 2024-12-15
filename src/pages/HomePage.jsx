@@ -1,6 +1,9 @@
 import React from "react"; // Cambia "react" por "React"
 import Cluster from "../components/Cluster/Cluster"; // Asegúrate de que la ruta es correcta
 import HomeMapButton from "../components/HomeMap/HomeMapButton"; // Importa el botón
+import ReviewSection from "../components/CommentReview/ReviewSection";
+import ReviewSummary from "../components/CommentReview/ReviewSummary";
+
 
 
 function HomePage() {
@@ -31,6 +34,9 @@ function HomePage() {
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-2">Comentario</h2>
         <p>blablablablabalbalba</p>
+        <ReviewSummary></ReviewSummary>
+        <ReviewSection></ReviewSection>
+        
       </section>
 
       <section>
