@@ -1,19 +1,14 @@
-import React from "react"; // Cambia "react" por "React"
-import Cluster from "../components/Cluster/Cluster"; // Asegúrate de que la ruta es correcta
-import HomeMapButton from "../components/HomeMap/HomeMapButton"; // Importa el botón
-import ReviewSection from "../components/CommentReview/ReviewSection";
-import ReviewSummary from "../components/CommentReview/ReviewSummary";
-
-
+import React from "react";
+import Cluster from "../components/Cluster/Cluster";
+import HomeMapButton from "../components/HomeMap/HomeMapButton";
+import HomeComments from "../components/BestComments/HomeComments";
 
 function HomePage() {
   return (
- 
-<div className="p-6 bg-gray-50">
-      <h1 className="text-3xl font-bold mb-6">Home</h1>
-
-      <section className="mb-6">
-        <h2 className="text-xl font-semibold mb-2">🗺️ ¿Qué provincia visitarás? </h2>
+  <div className="p-6 bg-gray-50">
+  <h1 className="text-3xl font-bold mb-6">Home</h1>
+  <section className="mb-6">
+  <h2 className="text-xl font-semibold mb-2">🗺️ ¿Qué provincia visitarás? </h2>
         <p>¡Descubre Andalucía, un paraíso lleno de historia, arte y naturaleza que te enamorará! Desde las playas doradas de la Costa del Sol hasta los majestuosos paisajes de Sierra Nevada, esta región es un destino único que combina cultura milenaria, tradiciones vibrantes y una gastronomía irresistible. Déjate cautivar por la pasión del flamenco, los imponentes monumentos como la Alhambra y la Mezquita de Córdoba, y el calor de su gente. Andalucía te espera con los brazos abiertos para que vivas experiencias inolvidables y te sumerjas en la magia del sur de España. ¿A qué esperas para descubrirla?</p>
         <Cluster />
       </section>
@@ -24,19 +19,16 @@ function HomePage() {
       </section>
 
       <section className="mb-6">
-        <h2 className="text-xl font-semibold mb-2"> Andalucía </h2>
-        <p>blablablablabalbalba</p>
-        <HomeMapButton></HomeMapButton>
-        
-       
+        <h2 className="text-xl font-semibold mb-2"> ¿Dónde está Andalucía? </h2>
+        <p>Quizás te preguntes dónde está Andalucía. Es imprescindible que lo ubiques en el mapa. Por eso, te traemos el mapa de Andalucía por cortesía de la Api de Google Maps. Click en el botón para verlo. Así nos ahorramos en peticiones al servidor para que no se utilice la API cada vez que cargamos la home guiño guiño. </p>
+        <HomeMapButton />
       </section>
 
       <section className="mb-6">
-        <h2 className="text-xl font-semibold mb-2">Comentario</h2>
-        <p>blablablablabalbalba</p>
-        <ReviewSummary></ReviewSummary>
-        <ReviewSection></ReviewSection>
-        
+        <h2 className="text-xl font-semibold mb-2">Comentarios</h2>
+        <p>Descubre las opiniones más destacadas de nuestros visitantes sobre las maravillas de Andalucía. Desde sus monumentos históricos hasta su vibrante vida nocturna, aquí encontrarás comentarios que reflejan la experiencia única de explorar esta región. ¡Consulta lo que otros tienen que decir!</p>
+        <HomeComments />
+
       </section>
 
       <section>

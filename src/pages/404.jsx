@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+// Si el GIF está en tu proyecto, descomenta esta línea y ajusta la ruta
+// import notFoundGif from "@/assets/images/404.gif";
 
 const NotFoundPage = () => {
   const [search, setSearch] = useState("");
@@ -15,24 +17,20 @@ const NotFoundPage = () => {
   };
 
   return (
-    <div className="flex flex-col items-center  h-screen bg-gray-100">
-    <h1 className="text-4xl font-bold text-gray-800 mt-4">Error 404 ¡No puedorr!</h1>
-      <div style={{ width: "30%", height: 0, paddingBottom: "16.25%", position: "relative" }}>
-        <iframe
-          src="https://www.youtube.com/embed/2OUnuE8lATs?start=0&end=17&autoplay=1"
-          width="100%"
-          height="100%"
-          style={{ position: "absolute" }}
-          frameBorder="0"
-          allowFullScreen
-          title="404-video"
-        ></iframe>
-      </div>
-      <p className="text-gray-600 mt-2">
-        ¡No puedorrr, pecador de la pradera! Parece que la página que buscabas ha salido por patas. Pero no te preocupes, que aquí tienes un buscador apañao pa' volverte al redil, ¡al ataqueeer!
+    <div className="flex flex-col items-center h-screen bg-gray-100">
+      <h1 className="text-4xl font-bold text-gray-800 mt-4">Error 404 ¡No puedorr!</h1>
+      <img
+        src="/Data/Chiquito/comorl.gif"
+        alt="404 Not Found"
+        className="w-1/5 h-auto mt-4 shadow-md"
+      />
+      <p className="text-center mt-4 mb-4 text-gray-600 text-xl">
+        ¡No puedorrr, pecador de la pradera!<br />
+        Parece que la página que buscabas ha salido por patas.<br /> 
+        Pero no te preocupes,que aquí tienes un buscador apañao pa' volverte al redil, ¡al ataqueeer!
       </p>
 
-      <form onSubmit={handleSearch} className="mt-4 w-full max-w-md">
+      <form onSubmit={handleSearch} className="mt-4 mb-6 w-full max-w-md">
         <div className="relative">
           <input
             type="text"
