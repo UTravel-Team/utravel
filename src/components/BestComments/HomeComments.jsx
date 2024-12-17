@@ -4,14 +4,21 @@ import { getBestComments } from "./getBestComments";
 const HomeComments = () => {
   const [comments, setComments] = useState([]); // Estado para almacenar los comentarios
   const [loading, setLoading] = useState(true); // Estado de carga
+  const [error, setError] = useState(null); // Estado para manejar errores
 
   // Cargar los comentarios al montar el componente
   useEffect(() => {
     const fetchComments = async () => {
       setLoading(true);
-      const data = await getBestComments();
-      setComments(data);
-      setLoading(false);
+      setError(null); // Resetear el error antes de realizar la solicitud
+      try {
+        const data = await getBestComments();
+        setComments(data);
+      } catch (error) {
+        setError("Hubo un problema al cargar los comentarios."); // Manejo de errores
+      } finally {
+        setLoading(false);
+      }
     };
 
     fetchComments();
@@ -21,6 +28,8 @@ const HomeComments = () => {
     <section className="mb-6">
       {loading ? (
         <p className="text-gray-500 mt-4">Cargando comentarios...</p>
+      ) : error ? (
+        <p className="text-red-500 mt-4">{error}</p> // Mostrar error si ocurre
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-4 lg:grid-cols-5 gap-2">
           {comments.map((comment) => (

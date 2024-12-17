@@ -1,5 +1,5 @@
 import React from "react";
-import ProvincePage  from "../components/News/ProvincePage";
+import ProvincesNews  from "../components/News/ProvincesNews";
 import  ProvincesData  from "../ProvincesData/ProvincesData.json";
  
 
@@ -7,7 +7,7 @@ function SevillaPage() {
 
   return (
     <div>
-      <ProvincePage title="Sevilla" phrases={ProvincesData.Sevilla}/>
+      <ProvincesNews title="Sevilla" phrases={ProvincesData.Sevilla}/>
     </div>
   )
  }

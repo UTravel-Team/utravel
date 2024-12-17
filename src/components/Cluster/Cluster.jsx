@@ -1,82 +1,37 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ClusterCard from "./ClusterCard";
+
+// Importa las imágenes automáticamente desde la carpeta correcta
+const images = import.meta.glob("../../assets/images/cluster/*.jpg", { eager: true, import: "default" });
 
 const Cluster = () => {
   const cards = [
-    {
-      id: 1,
-      image: "https://via.placeholder.com/150",
-      title: "Huelva",
-      link: "/huelva",
-    },
-    {
-      id: 2,
-      image: "https://via.placeholder.com/150",
-      title: "Cadiz",
-      link: "/cadiz",
-    },
-    {
-      id: 3,
-      image: "https://via.placeholder.com/150",
-      title: "Cordoba",
-      link: "/cordoba",
-    },
-    {
-      id: 4,
-      image: "https://via.placeholder.com/150",
-      title: "Granada",
-      link: "/granada",
-    },
-    {
-      id: 5,
-      image: "https://via.placeholder.com/150",
-      title: "Almeria",
-      link: "/almeria",
-    },
-    {
-      id: 6,
-      image: "https://via.placeholder.com/150",
-      title: "Cordoba",
-      link: "/sevilla",
-    },
-    {
-      id: 7,
-      image: "https://via.placeholder.com/150",
-      title: "Malaga",
-      link: "/malaga",
-    },
-    {
-      id: 8,
-      image: "https://via.placeholder.com/150",
-      title: "Jaen",
-      link: "/jaen",
-    },
+    { id: 1, title: "Huelva", link: "/huelva" },
+    { id: 2, title: "Cadiz", link: "/cadiz" },
+    { id: 3, title: "Cordoba", link: "/cordoba" },
+    { id: 4, title: "Granada", link: "/granada" },
+    { id: 5, title: "Almeria", link: "/almeria" },
+    { id: 6, title: "Sevilla", link: "/sevilla" },
+    { id: 7, title: "Malaga", link: "/malaga" },
+    { id: 8, title: "Jaen", link: "/jaen" },
   ];
 
   return (
-    <div className="grid grid-cols-4 gap-2 p-4">
-      {cards.map((card) => (
-        <div
-          key={card.id}
-          className="bg-white shadow-md  overflow-hidden hover:shadow-lg transition-shadow duration-300 relative group"
-        >
-          {/* Imagen alargada */}
-          <img
-            src={card.image}
-            alt={card.title}
-            className="w-full h-60 object-cover "
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 p-4">
+      {cards.map((card) => {
+        // Construye la ruta de la imagen basada en el título de la tarjeta en minúsculas
+        const imagePath = images[`../../assets/images/cluster/${card.title.toLowerCase()}.jpg`];
+
+        return (
+          <ClusterCard
+            key={card.id}
+            title={card.title}
+            link={card.link}
+            imagePath={imagePath || "https://via.placeholder.com/150"} // Fallback si no existe la imagen
           />
-           {/* Botón siempre visible */}
-           <div className="p-1 text-center">
-              <Link
-                to={card.link}
-                className="inline-block px-4 py-2 text-l font-bold"
-              >
-                {card.title}
-            </Link>
-          </div>
-        </div>
-      ))}
+        );
+      })}
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import React from "react";
-import ProvincePage  from "../components/News/ProvincePage";
+import ProvincesNews  from "../components/News/ProvincesNews";
 import  ProvincesData  from "../ProvincesData/ProvincesData.json";
  
 
@@ -7,7 +7,7 @@ function MalagaPage() {
 
   return (
     <div>
-      <ProvincePage title="Malaga" phrases={ProvincesData.Malaga}/>
+      <ProvincesNews title="Malaga" phrases={ProvincesData.Malaga}/>
     </div>
   )
  }
