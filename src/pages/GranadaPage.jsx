@@ -1,13 +1,13 @@
 import React from 'react'
 import ProvincesNews from "../components/News/ProvincesNews";
-import  ProvincesData  from "../ProvincesData/ProvincesData.json";
+import AndaluciaNewsData from "../components/News/NewsData/ProvincesNewsData.json"
  
 
 function GranadaPage() {
 
   return (
     <div>
-      <ProvincesNews title="Granada " phrases={ProvincesData.Granada}/>
+      <ProvincesNews provinceName="Granada" />
     </div>
   )
  }

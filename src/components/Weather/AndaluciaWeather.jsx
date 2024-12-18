@@ -1,6 +1,6 @@
 import React from "react";
 import { useFetchWeather } from "../../hooks/useFetchWeather";
-import { ProvincesCoords } from "./ProvincesCoords";
+import { ProvincesCoords } from "./WeatherData/ProvincesCoords";
 
 const AndaluciaWeather = () => {
   return (

@@ -12,6 +12,8 @@ import HuelvaPage from '../../pages/HuelvaPage';
 import SevillaPage from '../../pages/SevillaPage';
 import MalagaPage from '../../pages/MalagaPage';
 import Layout from '../Layout/Layout'; 
+import ProvinceNews from '../News/ProvincesNews';
+
 
 function CustomBrowserRouter (){
     return ( 
@@ -22,6 +24,8 @@ function CustomBrowserRouter (){
             <Route path="cluster" element={<Cluster />} />
             <Route path="almeria" element={<AlmeriaPage />} />
             <Route path="cadiz" element={<CadizPage />} />
+            <Route path="/province/:province" element={<ProvinceNews />} />
+
             <Route path="cordoba" element={<CordobaPage />} />
             <Route path="granada" element={<GranadaPage />} />
             <Route path="malaga" element={<MalagaPage />} />

@@ -1,0 +1,64 @@
+{
+  "Andalucia": [
+    {
+      "province": "Cadiz",
+      "phrases": [
+        "Cádiz es conocida como 'La tacita de plata' por su forma y belleza natural 🌊",
+        "Cádiz es la ciudad más antigua de Occidente, fundada por los fenicios en 1100 a.C. 🏛️",
+        "La Playa de la Victoria en Cádiz es una de las más famosas de España, ideal para disfrutar del sol y el mar 🏖️",
+        "Cádiz es famosa por su Carnaval, uno de los más grandes y populares del mundo 🎭",
+        "La Torre Tavira en Cádiz ofrece vistas panorámicas de la ciudad y es uno de los miradores más importantes 🌆",
+        "El Teatro Falla en Cádiz es uno de los principales escenarios culturales de la ciudad 🎭",
+        "Cádiz tiene más de 100 kilómetros de costa, con playas para todos los gustos 🏖️",
+        "La Catedral de Cádiz es un ejemplo único de arquitectura barroca y neoclásica en España ⛪",
+        "El Castillo de San Sebastián en Cádiz ofrece una vista espectacular de la bahía y el mar 🏰",
+        "Cádiz es el principal puerto pesquero de España, con un gran volumen de actividad pesquera 🐟"
+      ]
+    },
+    {
+      "province": "Almeria",
+      "phrases": [
+        "Almería tiene más de 200 kilómetros de costa, ¡perfecta para disfrutar del sol! ☀️",
+        "El Desierto de Tabernas en Almería ha sido escenario de numerosos westerns spaghetti 🎬",
+        "Almería alberga el Parque Natural de Cabo de Gata, uno de los espacios naturales más importantes de Andalucía 🌿",
+        "En Almería se cultivan más de 3.000 hectáreas de invernaderos, siendo un gran productor de hortalizas 🥒",
+        "La Alcazaba de Almería es la fortaleza musulmana más grande de España 🏰",
+        "El Parque Natural de las Hahnas de Almería es hogar de especies endémicas únicas en Europa 🦋",
+        "Almería es una de las provincias con más horas de sol al año en toda Europa 🌞",
+        "La gastronomía de Almería es famosa por su pescaíto frito y su arroz caldoso 🍤",
+        "En Almería se encuentra el Puerto de Almería, uno de los más importantes para el transporte de mercancías ⚓",
+        "Las playas de Almería han sido reconocidas como algunas de las más vírgenes y limpias de España 🏖️"
+      ]
+    },
+    {
+      "province": "Granada",
+      "phrases": [
+        "La Alhambra de Granada es uno de los monumentos más visitados del mundo 🌍",
+        "Granada es la ciudad que alberga la última gran fortaleza musulmana de España 🏰",
+        "La Alhambra fue declarada Patrimonio de la Humanidad por la UNESCO en 1984 🏰",
+        "El Mirador de San Nicolás ofrece una de las mejores vistas de la Alhambra y la Sierra Nevada 🌄",
+        "Granada es famosa por su famosa tapa gratis con cada bebida 🍻",
+        "La Catedral de Granada es uno de los máximos exponentes del Renacimiento en España ⛪",
+        "Granada es famosa por la gastronomía, especialmente por el plato típico 'tortilla del Sacromonte' 🍽️",
+        "La Universidad de Granada es una de las más antiguas y prestigiosas de España 🎓",
+        "La ciudad fue la última en caer ante los Reyes Católicos en 1492, marcando el fin de la Reconquista 🏰",
+        "Granada alberga el Parque Natural de Sierra Nevada, ideal para practicar deportes de invierno ⛷️"
+      ]
+    },
+    {
+      "province": "Cordoba",
+      "phrases": [
+        "Córdoba es famosa por la Mezquita-Catedral, uno de los monumentos más importantes del mundo islámico y cristiano 🕌⛪",
+        "La ciudad de Córdoba tiene más de 3.000 años de historia, ¡un crisol de culturas y civilizaciones! ⏳",
+        "El casco histórico de Córdoba es Patrimonio de la Humanidad desde 1984 🌍",
+        "La Feria de Córdoba es uno de los eventos más importantes de la ciudad, celebrada en mayo 🎉",
+        "La arquitectura cordobesa mezcla estilos romanos, islámicos y renacentistas 🏛️",
+        "Córdoba tiene un clima cálido, con temperaturas medias que superan los 30°C en verano 🌡️",
+        "La gastronomía cordobesa es famosa por platos como el salmorejo y el flamenquín 🍽️",
+        "Los patios de Córdoba son famosos por su belleza y color, especialmente en la primavera 🌸",
+        "El río Guadalquivir cruza Córdoba, ofreciendo hermosos paisajes y zonas para el ocio 🚶‍♂️",
+        "Córdoba es la cuna del filósofo Séneca y la poetisa Lucía de Medrano 📚"
+      ]
+    }
+  ]
+}

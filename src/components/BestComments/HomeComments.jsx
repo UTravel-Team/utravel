@@ -1,3 +1,4 @@
+//pinta comentarios de la home
 import React, { useEffect, useState } from "react";
 import { getBestComments } from "./getBestComments";
 

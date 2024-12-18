@@ -11,7 +11,7 @@ export const useFetchWeather = (lat, lon) => {
       const options = {
         method: "GET",
         headers: {
-          "x-rapidapi-key": import.meta.env.VITE_RAPIDAPI_KE || "clave-no-configurada",
+          "x-rapidapi-key": import.meta.env.VITE_RAPIDAPI_KEY || "clave-no-configurada",
           "X-Rapidapi-Host": import.meta.env.VITE_RAPIDAPI_HOS || "host-no-configurado",
         },
       };

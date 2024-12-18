@@ -1,15 +1,25 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
+import provincesNewsData from "./NewsData/ProvincesNewsData.json";
 
-function ProvincePage({ title, phrases }) {
+const ProvincesNews = ({ provinceName }) => {
   const [currentPhrase, setCurrentPhrase] = useState("");
 
-  const getRandomPhrase = () => {
-    if (!phrases || phrases.length === 0) return "No hay frases disponibles.";
-    const randomIndex = Math.floor(Math.random() * phrases.length);
-    return phrases[randomIndex];
-  };
-
   useEffect(() => {
+    // Encontrar la provincia específica en el nuevo formato
+    const province = provincesNewsData.Andalucia.find(
+      prov => prov.province === provinceName
+    );
+
+    if (!province || !province.phrases) {
+      console.error(`No se encontraron frases para la provincia: ${provinceName}`);
+      return;
+    }
+
+    const getRandomPhrase = () => {
+      const randomIndex = Math.floor(Math.random() * province.phrases.length);
+      return province.phrases[randomIndex];
+    };
+
     setCurrentPhrase(getRandomPhrase());
 
     const interval = setInterval(() => {
@@ -17,16 +27,14 @@ function ProvincePage({ title, phrases }) {
     }, 10000);
 
     return () => clearInterval(interval);
-  }, [phrases]);
+  }, [provinceName]);
 
   return (
-    <div className="provincePage">
-      <h1 className="title" style={{ textAlign: "center" }}>¡Bienvenidos a {title}!</h1>
-      <div className="news" style={{ textAlign: "center", marginTop: "20px" }}>
-        <p style={{ fontStyle: "italic", fontSize: "1.2rem" }}>{currentPhrase}</p>
-      </div>
+    <div className="province-news text-center">
+      <h2 className="text-bold mb-4">🌟 Datos curiosos</h2>
+      <p className="text-sm">{currentPhrase}</p>
     </div>
   );
-}
+};
 
-export default ProvincePage;
+export default ProvincesNews;

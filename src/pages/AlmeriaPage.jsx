@@ -1,45 +1,47 @@
 import React from "react";
-import ProvincesNews from "../components/News/ProvincesNews";
 import almeria from "../assets/images/maps/almeria.svg";
-import ProvincesData from "../ProvincesData/ProvincesData.json";
-
+import ProvincesNews from "../components/News/ProvincesNews";
+import ProvincesNewsData from "../components/News/NewsData/ProvincesNewsData.json"; // Importa el JSON
 
 function AlmeriaPage() {
+  const almeriaPhrases = ProvincesNewsData["Almeria"]; // Obtén las frases de Almería
+
   return (
     <div className="space-y-12 px-6 py-8 mx-auto max-w-7xl bg-gray-100 text-gray-800">
-      {/* Jumbotron con altura más pequeña */}
+      {/* Jumbotron */}
       <div
         className="relative w-full h-[40vh] md:h-[50vh] bg-cover bg-center"
         style={{ backgroundImage: `url(${almeria})` }}
       >
         <div className="absolute inset-0 bg-black/50 flex flex-col justify-center items-center text-center px-6 py-12">
-          {/* Título */}
           <h1 className="text-5xl md:text-6xl font-extrabold text-white drop-shadow-lg mb-4">
             Almería: Donde el Mediterráneo Guarda sus Tesoros Más Indomables
           </h1>
-          {/* Subtítulo */}
           <p className="text-lg md:text-2xl text-white drop-shadow-md">
             Playas vírgenes, historia milenaria y paisajes que desafían la
             imaginación.
           </p>
         </div>
       </div>
-      <ProvincesNews title="Almeria" phrases={ProvincesData.Almeria}/>
-      {/* Sección Principal */}
+
+      {/* ProvincesNews con frases de Almería */}
+      <ProvincesNews provinceName="Almeria" />
+
+      {/* Sección principal */}
       <section className="space-y-12">
         {/* Introducción */}
         <div className="text-center">
           <p className="text-lg leading-relaxed">
             La <strong>provincia de Almería</strong> es un regalo inigualable en
             el corazón del Mediterráneo. Con{" "}
-            <span className="font-semibold">más de 200 kilómetros de costa</span>
-            , desde las playas salvajes del{" "}
+            <span className="font-semibold">más de 200 kilómetros de costa</span>,
+            desde las playas salvajes del{" "}
             <span className="text-blue-500">Cabo de Gata-Níjar</span> hasta las
             arenas doradas de Poniente, Almería ofrece un equilibrio perfecto
             entre <em>naturaleza intacta</em> y hospitalidad moderna.
           </p>
         </div>
-        
+
         {/* Historia */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div>
@@ -68,9 +70,7 @@ function AlmeriaPage() {
             className="w-full md:w-1/2 rounded-lg shadow-lg"
           />
           <div>
-            <h2 className="text-3xl font-bold mb-4">
-              El Escenario Perfecto del Cine
-            </h2>
+            <h2 className="text-3xl font-bold mb-4">El Escenario Perfecto del Cine</h2>
             <p className="text-lg leading-relaxed">
               La singularidad de su <strong>paisaje indomable</strong> y su
               clima cálido han hecho de Almería el plató natural de grandes
