@@ -17,8 +17,8 @@ const AndaluciaWeather = () => {
               {error && <p className="text-red-500">Error: {error}</p>}
               {weatherData && (
                 <div className="text-center">
-                  <p className="text-lg">{weatherData.data[0].temp}°C</p>
-                  <p className="text-gray-500">{weatherData.data[0].weather.description}</p>
+                  <p className="text-lg">{weatherData.current.temp_c}°C</p>
+                  <p className="text-gray-500">{weatherData.current.condition.text}</p>
                 </div>
               )}
             </div>

@@ -4,8 +4,12 @@ import HomeMapButton from "../components/HomeMap/HomeMapButton";
 import HomeComments from "../components/BestComments/HomeComments";
 import AndaluciaWeather from "../components/Weather/AndaluciaWeather";
 import Jumbotron from "../components/InPageContent/Jumbotron";
-import customImage from "../assets/images/homeImg/flowers.jpg";
 import HomeProvincesNews from "../components/News/HomeProvincesNews";
+import FAQ from "../components/InPageContent/Faq";
+import HomeGalleryFiles from "../components/InPageContent/GallerySections/HomeGalleryFiles";
+import customImage from "../assets/images/homeImg/flowers.jpg";
+import culturaIMG from "../assets/images/homeImg/cultura.jpg";
+import naturalezaIMG from "../assets/images/homeimg/naturaleza.jpg";
 
 function HomePage() {
   return (
@@ -55,9 +59,10 @@ function HomePage() {
               es un reflejo de su rico pasado multicultural. Vive la pasión del
               flamenco en Sevilla y disfruta de los patios floreados en Córdoba.
             </p>
+
           </div>
           <img
-            src="../assets/images/homeImg/tradition.jpg"
+            src={culturaIMG}
             alt="Cultura y Tradición"
             className="w-full rounded-lg shadow-lg"
           />
@@ -72,7 +77,7 @@ function HomePage() {
         {/* Naturaleza */}
         <div className="flex flex-col md:flex-row items-center gap-8">
           <img
-            src="../assets/images/homeImg/nature.jpg"
+            src={naturalezaIMG}
             alt="Naturaleza en Andalucía"
             className="w-full md:w-1/2 rounded-lg shadow-lg"
           />
@@ -108,6 +113,7 @@ function HomePage() {
             <span className="text-blue-500">salmorejo</span>. Disfruta de sus
             sabores únicos mientras te sumerges en una experiencia culinaria sin igual.
           </p>
+          <HomeGalleryFiles />
         </div>
 
         {/* Comentarios */}
@@ -123,9 +129,9 @@ function HomePage() {
 
         {/* FAQ */}
         <section>
-          <h2 className="text-xl font-semibold mb-2">FAQ</h2>
-          <p>Encuentra respuestas a las preguntas más frecuentes sobre nuestra región. ¡Te ayudamos a planificar tu visita!</p>
+          <FAQ />
         </section>
+
       </section>
     </div>
   );

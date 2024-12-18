@@ -1,12 +1,12 @@
 import React from "react";
-import homeImage from "../../assets/images/homeImg/flowers.jpg"; // Importa la imagen correctamente al inicio
+import Image from "../../assets/images/homeImg/flowers.jpg"; // Importa la imagen correctamente al inicio
 
 function Jumbotron({ title, subtitle, imagePath, phrase }) {
   return (
     <div
       className="relative w-full h-[40vh] md:h-[50vh] bg-cover bg-center mb-12"
       style={{
-        backgroundImage: `url(${imagePath || homeImage})`, // Usa `imagePath` o un valor predeterminado
+        backgroundImage: `url(${imagePath || Image})`, // Usa `imagePath` o un valor predeterminado
       }}
     >
       <div className="absolute inset-0 bg-black/50 flex flex-col justify-center items-center text-center px-6 py-12">

@@ -1,6 +1,7 @@
 import React from "react";
 
 function TwoColumnSection({ title, description, imagePath, altText, reverse }) {
+  
   return (
     <div
       className={`flex flex-col ${
@@ -18,6 +19,7 @@ function TwoColumnSection({ title, description, imagePath, altText, reverse }) {
       </div>
     </div>
   );
+  
 }
 
 export default TwoColumnSection;
