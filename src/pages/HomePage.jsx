@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Cluster from "../components/Cluster/Cluster";
 import HomeMapButton from "../components/HomeMap/HomeMapButton";
 import HomeComments from "../components/BestComments/HomeComments";
@@ -10,19 +10,48 @@ import HomeGalleryFiles from "../components/InPageContent/GallerySections/HomeGa
 import customImage from "../assets/images/homeImg/flowers.jpg";
 import culturaIMG from "../assets/images/homeImg/cultura.jpg";
 import naturalezaIMG from "../assets/images/homeimg/naturaleza.jpg";
+import Wheel from "../components/Roulette/Wheel";
 
 function HomePage() {
+  const [isSpinning, setIsSpinning] = useState(false);  // Estado para controlar el giro
+  const [rouletteValue, setRouletteValue] = useState(null);  // Estado para almacenar el valor seleccionado
+  const andalusiaProvinces = [
+    "Almería",
+    "Cádiz",
+    "Córdoba",
+    "Granada",
+    "Huelva",
+    "Jaén",
+    "Málaga",
+    "Sevilla",
+  ];
+
+  // Data para pasar a la ruleta
+  const data = andalusiaProvinces.map((province, index) => ({
+    id: index,
+    option: province,
+    optionSize: 1,
+  }));
+
+  const handleSpin = () => {
+    const randomValue = Math.floor(Math.random() * data.length);
+    setRouletteValue(randomValue);  // Establecer el valor seleccionado
+    setIsSpinning(true);  // Iniciar la animación
+  };
+
+  const handleFinish = () => {
+    setIsSpinning(false);  // Detener la animación
+    alert(`¡La provincia seleccionada es: ${data[rouletteValue].option}!`);
+  };
+
   return (
-    <div className="p-6 bg-gray-50 pb-8"> {/* Padding abajo añadido */}
-      {/* Jumbotron con frase */}
+    <div className="p-6 bg-gray-50 pb-8">
       <Jumbotron
         title="Andalucía"
         subtitle="Descubre la historia, cultura y paisajes inigualables."
         imagePath={customImage}
         phrase={<HomeProvincesNews />}
       />
-
-      {/* Sección principal */}
       <section className="space-y-12">
         {/* Introducción */}
         <div className="text-center">
@@ -30,8 +59,7 @@ function HomePage() {
             Andalucía es un paraíso lleno de{" "}
             <strong>historia, arte y naturaleza</strong> que te enamorará. Desde
             las playas doradas de la{" "}
-            <span className="text-blue-500">Costa del Sol</span>{" "}
-            hasta los majestuosos paisajes de{" "}
+            <span className="text-blue-500">Costa del Sol</span> hasta los majestuosos paisajes de{" "}
             <span className="text-blue-500">Sierra Nevada</span>, esta región combina{" "}
             <em>cultura milenaria</em>, tradiciones vibrantes y una gastronomía irresistible.
           </p>
@@ -59,7 +87,6 @@ function HomePage() {
               es un reflejo de su rico pasado multicultural. Vive la pasión del
               flamenco en Sevilla y disfruta de los patios floreados en Córdoba.
             </p>
-
           </div>
           <img
             src={culturaIMG}
@@ -68,10 +95,23 @@ function HomePage() {
           />
         </div>
 
-        {/* Échalo a suertes */}
+        {/* ¿Qué provincia visitarás? */}
         <section className="mb-6">
           <h2 className="text-3xl font-bold mb-4"> 🎲 Échalo a suertes</h2>
           <p>¡Atrévete a descubrir tu próxima aventura de forma inesperada! Andalucía tiene sorpresas que te esperan en cada rincón.</p>
+
+          <div>
+            {/* Aquí es donde renderizas la ruleta */}
+            <Wheel
+              mustStartSpinning={isSpinning}
+              rouletteValue={rouletteValue}
+              data={data}
+              onStopSpinning={handleFinish}
+              backgroundColors={["#f8c471", "#85c1e9"]}
+              textColors={["#ffffff"]}
+            />
+            
+          </div>
         </section>
 
         {/* Naturaleza */}
@@ -134,7 +174,6 @@ function HomePage() {
         <section>
           <FAQ />
         </section>
-
       </section>
     </div>
   );

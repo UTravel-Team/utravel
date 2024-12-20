@@ -1,0 +1,73 @@
+.ticket-modal {
+  background: linear-gradient(to bottom, #ffffff, #f8f9fa);
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+
+.ticket-header {
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 2px dashed #ccc;
+  padding-bottom: 10px;
+}
+
+.ticket-body {
+  margin-top: 10px;
+}
+
+.ticket-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-size: 12px;
+  color: #888;
+}
+
+.value {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+.ticket-destination {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.ticket-destination .from,
+.ticket-destination .to {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.plane-icon {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #555;
+}
+
+.ticket-footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px dashed #ccc;
+  padding-top: 10px;
+}
+
+.barcode {
+  height: 50px;
+  background: repeating-linear-gradient(
+    90deg,
+    #000,
+    #000 2px,
+    #fff 2px,
+    #fff 4px
+  );
+  margin-top: 20px;
+}
