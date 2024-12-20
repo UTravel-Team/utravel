@@ -1,13 +1,18 @@
+//imports básicos
 import React from "react";
+//imports de componentes de estructura de contenidos
 import Jumbotron from "../components/InPageContent/Jumbotron";
 import Intro from "../components/InPageContent/Intro";
 import TwoColumnSection from "../components/InPageContent/TwoCols";
 import CTA from "../components/InPageContent/CTA";
+//import del componente para el titular de datos curiosos o noticias
 import ProvincesNews from "../components/News/ProvincesNews";
-import almeriaimg from "../assets/images/landings/almeria/almeria.jpg";
-import aventuraimg from "../assets/images/landings/almeria/aventuraimg.jpg";
-import almeriaHollywood from "../assets/images/Landings/almeria/almeria-holliwood.jpg";
+//Mediateca
+import almeriaimg from "../../src/assets/images/landings/almeria/almeria.jpg";
+import aventuraimg from "../../src/assets/images/landings/almeria/aventuraimg.jpg";
+import almeriaHollywood from "../../src/assets/images/landings/almeria/almeria-holliwood.jpg";
 
+//empieza la fiesta
 function AlmeriaPage() {
   return (
     <div className="space-y-12 px-6 py-8 mx-auto max-w-7xl bg-gray-100 text-gray-800">
@@ -25,7 +30,7 @@ function AlmeriaPage() {
         text="La provincia de Almería es un regalo inigualable en el corazón del Mediterráneo. Con más de 200 kilómetros de costa, desde las playas salvajes del Cabo de Gata-Níjar hasta las arenas doradas de Poniente, Almería ofrece un equilibrio perfecto entre naturaleza intacta y hospitalidad moderna."
       />
 
-        <TwoColumnSection
+      <TwoColumnSection
         title="Historia Viva en Cada Rincón"
         description="Almería ha sido testigo de civilizaciones milenarias que dejaron su huella. Desde los restos prehistóricos de Los Millares y el Argar hasta la esplendorosa herencia árabe, reflejada en castillos, fortalezas y el majestuoso legado de la época musulmana."
         imagePath={almeriaimg}
@@ -58,4 +63,5 @@ function AlmeriaPage() {
   );
 }
 
+//exportar la landing
 export default AlmeriaPage;

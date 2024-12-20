@@ -1,7 +1,7 @@
 import React from "react";
 import SocialMedia from "../Buttons/SocialMediaButton.jsx";
 import LoginRegisterButtons from "../Buttons/LoginRegisterGroup.jsx";
-import SearchBar from "./SearchBar.jsx";
+import ProvSearchBar from "../../components/SearchBar/ProvSearchBar.jsx"
 import Logo from "./Logo.jsx";
 
 function Header() {
@@ -16,7 +16,9 @@ function Header() {
           {/* Logo y SearchBar */}
           <div className="flex flex-nowrap items-center gap-4">
             <Logo />
-            <SearchBar />
+            
+            {/* Search Bar Section */} 
+            <ProvSearchBar />
           </div>
 
           {/* Search Bar Section */}        

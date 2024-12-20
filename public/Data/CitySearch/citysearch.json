@@ -1,0 +1,59 @@
+{
+    "Sevilla": [
+      "Aljarafe",
+      "Sierra Norte",
+      "La Campiña",
+      "La Vega",
+      "Las Marismas"
+    ],
+    "Málaga": [
+      "Axarquía",
+      "Serranía de Ronda",
+      "Valle del Guadalhorce",
+      "Costa del Sol Occidental",
+      "Málaga-Costa del Sol"
+    ],
+    "Cádiz": [
+      "Bahía de Cádiz",
+      "Jerez-Campiña",
+      "La Janda",
+      "Campo de Gibraltar",
+      "Costa Noroeste"
+    ],
+    "Granada": [
+      "Vega de Granada",
+      "Costa Tropical",
+      "Alpujarra",
+      "Baza-Huéscar",
+      "Loja"
+    ],
+    "Córdoba": [
+      "Campiña Sur",
+      "Los Pedroches",
+      "Valle del Guadalquivir",
+      "Subbética",
+      "Guadiato"
+    ],
+    "Huelva": [
+      "Condado de Huelva",
+      "Costa Occidental",
+      "Sierra de Huelva",
+      "Cuenca Minera",
+      "Andévalo"
+    ],
+    "Jaén": [
+      "Sierra de Cazorla",
+      "La Loma",
+      "Sierra Mágina",
+      "El Condado",
+      "Valle del Guadalquivir"
+    ],
+    "Almería": [
+      "Poniente Almeriense",
+      "Levante Almeriense",
+      "Valle del Almanzora",
+      "Comarca de los Filabres",
+      "Alpujarra Almeriense"
+    ]
+  }
+  

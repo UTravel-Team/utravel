@@ -70,7 +70,7 @@ function HomePage() {
 
         {/* Échalo a suertes */}
         <section className="mb-6">
-          <h2 className="text-xl font-semibold mb-2">🎲 Échalo a suertes</h2>
+          <h2 className="text-3xl font-bold mb-4"> 🎲 Échalo a suertes</h2>
           <p>¡Atrévete a descubrir tu próxima aventura de forma inesperada! Andalucía tiene sorpresas que te esperan en cada rincón.</p>
         </section>
 
@@ -94,13 +94,16 @@ function HomePage() {
 
         {/* ¿Dónde está Andalucía? */}
         <section className="mb-6">
-          <h2 className="text-xl font-semibold mb-2"> ¿Dónde está Andalucía? </h2>
+          <h2 className="text-3xl font-bold mb-4"> ¿Dónde está Andalucía? </h2>
           <p>
             Quizás te preguntes dónde está Andalucía. Es imprescindible que lo ubiques en el mapa. Por eso, te traemos el
             mapa de Andalucía por cortesía de la Api de Google Maps.
           </p>
           <HomeMapButton />
-          <AndaluciaWeather />
+
+          <h2 className="text-3xl font-bold mb-4"> ¿Qué tiempo hará en Andalucía?</h2>
+          <p></p>
+          {/* <AndaluciaWeather /> Comentado para que no haga peticiones la cabrona*/}
         </section>
 
         {/* Gastronomía */}

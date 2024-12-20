@@ -25,7 +25,6 @@ function CustomBrowserRouter (){
             <Route path="almeria" element={<AlmeriaPage />} />
             <Route path="cadiz" element={<CadizPage />} />
             <Route path="/province/:province" element={<ProvinceNews />} />
-
             <Route path="cordoba" element={<CordobaPage />} />
             <Route path="granada" element={<GranadaPage />} />
             <Route path="malaga" element={<MalagaPage />} />
@@ -33,6 +32,7 @@ function CustomBrowserRouter (){
             <Route path="huelva" element={<HuelvaPage />} />
             <Route path="sevilla" element={<SevillaPage />} />
             <Route path="*" element={<NotFoundPage />} />
+            
           </Route>
         </Routes>
         </BrowserRouter>

@@ -50,7 +50,7 @@ const HomeGalleryFiles = () => {
 
   return (
     <div>
-      <GalleryGrid photos={photos} title="Galería de Andalucía" />
+      <GalleryGrid photos={photos}/>
     </div>
   );
 };
