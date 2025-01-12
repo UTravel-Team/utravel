@@ -1,30 +1,27 @@
 import React from "react";
 
-const GalleryGrid = ({ photos, title }) => {
+const GalleryGrid = ({ photos, onPhotoClick }) => {
   return (
-    <div className="max-w-7xl mx-auto py-8 px-4">
-      {title && <h2 className="text-2xl font-bold mb-6 text-center">{title}</h2>}
-      <div
-        className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-0"
-        style={{
-          gridAutoRows: "1fr", // Asegura filas uniformes
-        }}
-      >
-        {photos.map((photo, index) => (
-          <div key={index} className="relative overflow-hidden">
-            <img
-              src={photo.url}
-              alt={photo.alt || `Photo ${index + 1}`}
-              className="w-full h-full object-cover"
-            />
-            {photo.caption && (
-              <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white text-xs p-1">
-                {photo.caption}
-              </div>
-            )}
+    <div className="grid grid-cols-3 gap-4 p-6">
+      {photos.map((photo, index) => (
+        <div key={index} className="rounded-lg shadow-lg overflow-hidden">
+          <img
+            src={photo.url}
+            alt={photo.alt}
+            className="w-full h-48 object-cover cursor-pointer"
+            onClick={() => onPhotoClick(photo)}
+          />
+          <div className="p-4">
+            <h2 className="text-lg font-bold">{photo.caption}</h2>
+            <button
+              onClick={() => onPhotoClick(photo)}
+              className="mt-4 bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600"
+            >
+              Ver info
+            </button>
           </div>
-        ))}
-      </div>
+        </div>
+      ))}
     </div>
   );
 };

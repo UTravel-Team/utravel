@@ -15,7 +15,7 @@ const ClusterCard = ({ title, link, imagePath }) => {
       <div className="p-4 text-center">
         <Link
           to={link}
-          className="inline-block text-xl font-bold text-gray-700 hover:text-blue-500 transition-colors duration-200"
+          className="text-gray-700 text-xl font-bold hover:text-green-600 transition-colors duration-200"
         >
           {title}
         </Link>

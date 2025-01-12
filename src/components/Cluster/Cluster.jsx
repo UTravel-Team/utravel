@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import ClusterCard from "./ClusterCard";
 
 // Importa las imágenes automáticamente desde la carpeta correcta

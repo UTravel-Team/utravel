@@ -13,30 +13,49 @@ import SevillaPage from '../../pages/SevillaPage';
 import MalagaPage from '../../pages/MalagaPage';
 import Layout from '../Layout/Layout'; 
 import ProvinceNews from '../News/ProvincesNews';
+import GazpachoAndaluz from "../../pages/Recipes/GazpachoAndaluz";
+import SalmorejoCordobes from "../../pages/Recipes/SalmorejoCordobes";
+import TortillaPatatas from "../../pages/Recipes/TortillaPatatas";
+import TeamPage from "../../pages/AboutUs";
 
-
-function CustomBrowserRouter (){
-    return ( 
+function CustomBrowserRouter() {
+  return ( 
     <BrowserRouter>
-        <Routes>
+      <Routes>
         <Route path="/" element={<Layout />}>
-            <Route index element={<HomePage />} />
-            <Route path="cluster" element={<Cluster />} />
-            <Route path="almeria" element={<AlmeriaPage />} />
-            <Route path="cadiz" element={<CadizPage />} />
-            <Route path="/province/:province" element={<ProvinceNews />} />
-            <Route path="cordoba" element={<CordobaPage />} />
-            <Route path="granada" element={<GranadaPage />} />
-            <Route path="malaga" element={<MalagaPage />} />
-            <Route path="jaen" element={<JaenPage />} />
-            <Route path="huelva" element={<HuelvaPage />} />
-            <Route path="sevilla" element={<SevillaPage />} />
-            <Route path="*" element={<NotFoundPage />} />
-            
-          </Route>
-        </Routes>
-        </BrowserRouter>
-    )
+    
+          {/* Home */}
+          <Route index element={<HomePage />} />
+          
+          {/* Provincias */}
+          <Route path="cluster" element={<Cluster />} />
+          <Route path="almeria" element={<AlmeriaPage />} />
+          <Route path="cadiz" element={<CadizPage />} />
+          <Route path="cordoba" element={<CordobaPage />} />
+          <Route path="granada" element={<GranadaPage />} />
+          <Route path="malaga" element={<MalagaPage />} />
+          <Route path="jaen" element={<JaenPage />} />
+          <Route path="huelva" element={<HuelvaPage />} />
+          <Route path="sevilla" element={<SevillaPage />} />
+
+          {/* Noticias de Provincias */}
+          <Route path="/province/:province" element={<ProvinceNews />} />
+          
+          {/* Recetas */}
+          <Route path="gazpacho-andaluz" element={<GazpachoAndaluz />} />
+          <Route path="salmorejo-cordobes" element={<SalmorejoCordobes />} />
+          <Route path="tortilla-patatas" element={<TortillaPatatas />} />
+
+          {/*AboutUs y AboutUtravel*/}
+          <Route path="AboutUs" element={<TeamPage/>} />
+
+          
+          {/* Página no encontrada */}
+          <Route path="*" element={<NotFoundPage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default CustomBrowserRouter;

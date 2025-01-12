@@ -59,6 +59,66 @@
         "El río Guadalquivir cruza Córdoba, ofreciendo hermosos paisajes y zonas para el ocio 🚶‍♂️",
         "Córdoba es la cuna del filósofo Séneca y la poetisa Lucía de Medrano 📚"
       ]
+    },
+    {
+      "province": "Jaen",
+      "phrases": [
+        "Jaén es conocida como la capital mundial del aceite de oliva 🫒",
+        "El Parque Natural de las Sierras de Cazorla, Segura y Las Villas es uno de los más grandes de España 🌲",
+        "La Catedral de Jaén es una joya del Renacimiento español 🏛️",
+        "Jaén cuenta con castillos impresionantes como el Castillo de Santa Catalina 🏰",
+        "La gastronomía jiennense destaca por platos como el ajo blanco y las migas 🍽️",
+        "La Fiesta de la Virgen de la Capilla es una de las tradiciones más importantes de Jaén 🎉",
+        "La provincia de Jaén es hogar de yacimientos arqueológicos íberos como el de Puente Tablas ⏳",
+        "El Balneario de Marmolejo es famoso por sus aguas termales relajantes ♨️",
+        "La Ruta de los Castillos y las Batallas ofrece una experiencia única de la historia medieval ⚔️",
+        "Jaén tiene un paisaje de olivares interminables que es espectacular al atardecer 🌅"
+      ]
+    },
+    {
+      "province": "Sevilla",
+      "phrases": [
+        "Sevilla es famosa por su Giralda y la Catedral, Patrimonio de la Humanidad 🏛️",
+        "La Feria de Abril es una de las fiestas más coloridas y tradicionales de España 🎡",
+        "El barrio de Triana es un lugar icónico para el flamenco y la cerámica 🎶",
+        "La Plaza de España es una obra maestra de la arquitectura sevillana 🏰",
+        "La gastronomía sevillana incluye tapas como las espinacas con garbanzos y el pescaíto frito 🍤",
+        "La Semana Santa en Sevilla es un evento religioso y cultural de gran importancia 🌟",
+        "El Real Alcázar de Sevilla es uno de los palacios más antiguos en uso de Europa 🏯",
+        "El río Guadalquivir es clave para el encanto y la historia de la ciudad 🚤",
+        "Sevilla fue la sede de la Exposición Universal de 1992 🌍",
+        "El Parque de María Luisa es ideal para paseos tranquilos entre naturaleza 🌳"
+      ]
+    },
+    {
+      "province": "Malaga",
+      "phrases": [
+        "Málaga es la cuna del pintor Pablo Picasso, con un museo dedicado a su obra 🎨",
+        "La Alcazaba de Málaga es uno de los mayores exponentes de la arquitectura musulmana en España 🏯",
+        "La Costa del Sol ofrece playas espectaculares y un clima privilegiado 🌊",
+        "El Caminito del Rey es una experiencia emocionante para los amantes de la naturaleza y la aventura 🌄",
+        "El puerto de Málaga es un lugar moderno y lleno de vida, con tiendas y restaurantes 🛳️",
+        "La gastronomía malagueña incluye espetos de sardinas y ajoblanco como platos estrella 🍽️",
+        "La Feria de Málaga es una de las más animadas del verano en Andalucía 🎉",
+        "El Teatro Romano de Málaga es un testimonio vivo de la época romana en la ciudad ⏳",
+        "El Museo Carmen Thyssen alberga una increíble colección de arte andaluz 🖼️",
+        "El Festival de Cine de Málaga es un evento cultural destacado en España 🎥"
+      ]
+    },
+    {
+      "province": "Huelva",
+      "phrases": [
+        "Huelva es conocida por sus playas vírgenes en la Costa de la Luz 🏖️",
+        "El Parque Nacional de Doñana es Patrimonio de la Humanidad y hogar de especies únicas 🌍",
+        "El jamón ibérico de Jabugo es un manjar reconocido a nivel mundial 🍖",
+        "La provincia de Huelva tiene un importante legado minero en las Minas de Riotinto ⛏️",
+        "Huelva fue el punto de partida de Cristóbal Colón hacia América en 1492 ⛵",
+        "El muelle del Tinto es un lugar emblemático para pasear y admirar la puesta de sol 🌅",
+        "La gastronomía de Huelva destaca por sus frescos mariscos y pescados, como la gamba blanca 🍤",
+        "El Rocío es una de las romerías más famosas de España, atrayendo a miles de peregrinos 🙏",
+        "Huelva cuenta con una rica tradición flamenca, especialmente en el fandango 🎶",
+        "El Festival de Cine Iberoamericano de Huelva es uno de los más antiguos de su tipo 🎥"
+      ]
     }
   ]
 }

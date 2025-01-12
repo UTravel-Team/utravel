@@ -1,11 +1,25 @@
-export const ProvincesCoords = [
-    { name: "Almería", lat: 36.8381, lon: -2.4597 },
-    { name: "Cádiz", lat: 36.5164, lon: -6.2994 },
-    { name: "Córdoba", lat: 37.8882, lon: -4.7794 },
-    { name: "Granada", lat: 37.1773, lon: -3.5986 },
-    { name: "Huelva", lat: 37.2614, lon: -6.9447 },
-    { name: "Jaén", lat: 37.7796, lon: -3.7849 },
-    { name: "Málaga", lat: 36.7213, lon: -4.4214 },
-    { name: "Sevilla", lat: 37.3886, lon: -5.9823 },
-  ];
-  
+import React, { useState } from "react";
+import WeatherDisplay from "../WeatherDisplay"; // Componente que muestra el clima
+
+const ProvincesCoords= () => {
+  const [coordinates, setCoordinates] = useState({ lat: 36.8381, lon: -2.4597 }); // Coordenadas por defecto de Almería
+
+  // Función para actualizar coordenadas (puedes adaptarla para un selector dinámico)
+  const changeLocation = (lat, lon) => {
+    setCoordinates({ lat, lon });
+  };
+
+  return (
+    <div>
+      <h1>Provincias</h1>
+      <button onClick={() => changeLocation(36.8381, -2.4597)}>Almería</button>
+      <button onClick={() => changeLocation(37.3826, -5.996)}>Sevilla</button>
+      <button onClick={() => changeLocation(36.7213, -4.4214)}>Málaga</button>
+
+      {/* Componente que muestra el clima con las coordenadas actuales */}
+      <WeatherDisplay lat={coordinates.lat} lon={coordinates.lon} />
+    </div>
+  );
+};
+
+export default ProvincesCoords;

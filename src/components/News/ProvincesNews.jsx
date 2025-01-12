@@ -24,15 +24,15 @@ const ProvincesNews = ({ provinceName }) => {
 
     const interval = setInterval(() => {
       setCurrentPhrase(getRandomPhrase());
-    }, 10000);
+    }, 5000);
 
     return () => clearInterval(interval);
   }, [provinceName]);
 
   return (
     <div className="province-news text-center">
-      <h2 className="text-bold mb-4">🌟 Datos curiosos</h2>
-      <p className="text-sm">{currentPhrase}</p>
+
+      <h2 className="text-2xl font-semibold italic">{currentPhrase} </h2>
     </div>
   );
 };
