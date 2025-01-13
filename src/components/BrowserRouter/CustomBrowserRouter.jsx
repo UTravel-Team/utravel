@@ -17,6 +17,7 @@ import GazpachoAndaluz from "../../pages/Recipes/GazpachoAndaluz";
 import SalmorejoCordobes from "../../pages/Recipes/SalmorejoCordobes";
 import TortillaPatatas from "../../pages/Recipes/TortillaPatatas";
 import TeamPage from "../../pages/AboutUs";
+import UTravelAbout from '../../pages/AboutProject';
 
 function CustomBrowserRouter() {
   return ( 
@@ -46,10 +47,10 @@ function CustomBrowserRouter() {
           <Route path="salmorejo-cordobes" element={<SalmorejoCordobes />} />
           <Route path="tortilla-patatas" element={<TortillaPatatas />} />
 
-          {/*AboutUs y AboutUtravel*/}
-          <Route path="AboutUs" element={<TeamPage/>} />
+          {/* AboutUs y AboutUtravel */}
+          <Route path="about-us" element={<TeamPage />} />
+          <Route path="about-utravel" element={<UTravelAbout />} />
 
-          
           {/* Página no encontrada */}
           <Route path="*" element={<NotFoundPage />} />
         </Route>

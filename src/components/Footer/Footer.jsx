@@ -39,7 +39,7 @@ function Footer() {
             Enlaces de interés
           </h4>
           <ul className="space-y-2">
-            <li><Link to="/" className="hover:text-green-300">Sobre UTravel</Link></li>
+            <li><Link to="/about-utravel" className="hover:text-green-300">Sobre UTravel</Link></li>
             <li><Link to="/AboutUs" className="hover:text-green-300">Quiénes somos</Link></li>
             <li><Link to="/" className="hover:text-green-300">Foro</Link></li>
             <li><Link to="/" className="hover:text-green-300">Chat</Link></li>
