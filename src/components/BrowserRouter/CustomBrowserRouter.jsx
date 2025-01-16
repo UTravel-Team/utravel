@@ -43,7 +43,7 @@ function CustomBrowserRouter() {
           <Route path="/province/:province" element={<ProvinceNews />} />
           
           {/* Recetas */}
-          <Route path="gazpacho-andaluz" element={<GazpachoAndaluz />} />
+          <Route path="gazpachoandaluz" element={<GazpachoAndaluz />} />
           <Route path="salmorejo-cordobes" element={<SalmorejoCordobes />} />
           <Route path="tortilla-patatas" element={<TortillaPatatas />} />
 

@@ -26,6 +26,9 @@ const GazpachoAndaluz = () => {
       "Refrigera durante al menos 2 horas antes de servir.",
     ],
   };
+
+  return <Recipe {...recipeData} />;
+
 };
 
 export default GazpachoAndaluz;

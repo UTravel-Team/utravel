@@ -2,7 +2,7 @@ import React from "react";
 
 const GalleryGrid = ({ photos, onPhotoClick }) => {
   return (
-    <div className="grid grid-cols-3 gap-4 p-6">
+    <div className="grid grid-cols-3 gap-4 p-8">
       {photos.map((photo, index) => (
         <div key={index} className="rounded-lg shadow-lg overflow-hidden">
           <img

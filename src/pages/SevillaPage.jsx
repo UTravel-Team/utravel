@@ -9,6 +9,7 @@ import flamencoimg from "../assets/images/Landings/sevilla/flamenco.jpg";
 import feriaimg from "../assets/images/Landings/sevilla/feria.jpg";
 import { useFetchWeather } from "../hooks/useFetchWeather";
 import ProvinceWeather from "../components/Weather/ProvinceWeather";
+import Cluster from "../components/Cluster/Cluster";
 
 
 function SevillaPage() {
@@ -86,6 +87,8 @@ que una ciudad; es una experiencia para los sentidos.`;
         buttonText="Botón a patrocinado"
         buttonLink="#"
       />
+      <h2 className="text-3xl font-extrabold mb-4">¿A dónde irás ahora?</h2>
+      <Cluster /> 
     </div>
   );
 }

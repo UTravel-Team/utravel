@@ -65,55 +65,56 @@ const HomeGalleryFiles = () => {
   const closeModal = () => setSelectedRecipe(null);
 
   return (
-    <div>
-      {/* Galería de Recetas */}
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-6">
-        {recipes.map((recipe) => (
-          <div key={recipe.id} className="recipe-card text-center">
-            <img
-              src={recipe.url}
-              alt={recipe.alt}
-              className="w-full h-48 object-cover rounded-lg shadow-lg"
-            />
-            <h3 className="text-xl font-bold mt-4">{recipe.caption}</h3>
-            <button
-              onClick={() => openModal(recipe)}
-              className="mt-4 bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600 transition-colors duration-200"
-
-            >
-              Ver Más
-            </button>
-          </div>
-        ))}
+<div className="px-10 sm:px-24">
+  {/* Galería de Recetas */}
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+    {recipes.map((recipe) => (
+      <div key={recipe.id} className="recipe-card text-center">
+        <img
+          src={recipe.url}
+          alt={recipe.alt}
+          className="w-full h-48 object-cover rounded-lg shadow-lg"
+        />
+        <h3 className="text-xl font-bold mt-4">{recipe.caption}</h3>
+        <button
+          onClick={() => openModal(recipe)}
+          className="mt-4 bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600 transition-colors duration-200"
+        >
+          Ver Más
+        </button>
       </div>
+    ))}
+  </div>
 
-      {/* Modal Dinámico */}
-      {selectedRecipe && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-          <div className="bg-white rounded-lg shadow-lg p-6 w-3/4 md:w-1/2 relative">
-            <button
-              onClick={closeModal}
-              className="absolute top-4 right-4 text-gray-500 hover:text-gray-700"
-            >
-              ✖
-            </button>
-            <h2 className="text-2xl font-bold mb-4">{selectedRecipe.caption}</h2>
-            <img
-              src={selectedRecipe.url}
-              alt={selectedRecipe.alt}
-              className="w-full h-48 object-cover rounded mb-4"
-            />
-            <p className="text-gray-600 mb-4">{selectedRecipe.description}</p>
-            <Link
-              to={selectedRecipe.link}
-              className="mt-4 bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600"
-            >
-              Cómo hacer esta receta
-            </Link>
-          </div>
-        </div>
-      )}
+  {/* Modal Dinámico */}
+  {selectedRecipe && (
+    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+      <div className="bg-white rounded-lg shadow-lg p-6 w-11/12 md:w-3/4 lg:w-1/2 relative">
+        <button
+          onClick={closeModal}
+          className="absolute top-4 right-4 text-gray-500 hover:text-gray-700"
+        >
+          ✖
+        </button>
+        <h2 className="text-2xl font-bold mb-4">{selectedRecipe.caption}</h2>
+        <img
+          src={selectedRecipe.url}
+          alt={selectedRecipe.alt}
+          className="w-full h-48 object-cover rounded mb-4"
+        />
+        <p className="text-gray-600 mb-4">{selectedRecipe.description}</p>
+        <Link
+          to={selectedRecipe.link}
+          className="mt-4 bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600"
+        >
+          Ver Receta Completa
+        </Link>
+      </div>
     </div>
+  )}
+</div>
+
+            
   );
 };
 

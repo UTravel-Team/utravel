@@ -21,6 +21,7 @@
 }
 
 #map {
+  
   height: 500px;
   width: 100%;
   border: 2px solid #ccc; /* Añade un borde si lo prefieres */
@@ -49,4 +50,13 @@
 
 .card {
   @apply bg-white p-6 rounded-lg shadow-md flex-shrink-0 w-80;
+}
+
+body{
+  padding-left:120px;
+  padding-right: 120px;
+}
+h2{
+  margin-bottom:80px;
+  margin-top: 80px;
 }

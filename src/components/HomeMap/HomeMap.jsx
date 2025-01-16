@@ -4,8 +4,11 @@ import { GoogleMap, LoadScript } from '@react-google-maps/api';
 const HomeMap = () => {
   // Configuración del mapa
   const mapContainerStyle = {
-    width: '100%',
+    width: '80%',
     height: '500px',
+    display: 'flex',
+    justifyContent: 'center', 
+    alignItems: 'center',
   };
 
   const center = {

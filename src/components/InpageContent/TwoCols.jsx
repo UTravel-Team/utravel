@@ -7,13 +7,14 @@ function TwoColumnSection({ title, description, imagePath, altText, reverse }) {
         reverse ? "md:flex-row-reverse" : "md:flex-row"
       } items-center gap-0 m-0 p-0 overflow-hidden`}
     >
+   
       <img
         src={imagePath}
         alt={altText}
-        className="w-full md:w-1/2 shadow-lg rounded-none border-4 border-white"
+        className="w-full md:w-1/3 shadow-lg rounded-none border-4 border-white"
       />
-      <div className="w-full md:w-1/2 p-10">
-        <h2 className="text-3xl font-bold pb-4 m-0">{title}</h2>
+      <div className="w-full md:w-2/3 p-20">
+      <h2 className="text-3xl font-bold pb-4 m-0">{title}</h2>
         <p className="text-lg leading-relaxed m-0">{description}</p>
       </div>
     </div>

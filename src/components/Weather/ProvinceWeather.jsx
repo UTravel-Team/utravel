@@ -23,10 +23,7 @@ const ProvinceWeather = ({ provinceName, weatherData, loading, error, descriptio
                 <strong>Fecha:</strong>{" "}
                 {weatherData?.location?.localtime.split(" ")[0]}
               </p>
-              <p>
-                <strong>Hora:</strong>{" "}
-                {weatherData?.location?.localtime.split(" ")[1]}
-              </p>
+             
               <p>
                 <strong>Temperatura:</strong>{" "}
                 {weatherData?.current?.temp_c}°C

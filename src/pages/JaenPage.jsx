@@ -9,6 +9,7 @@ import olivaresimg from "../../src/assets/images/landings/jaen/olivares.jpg";
 import ubedaBaezaimg from "../../src/assets/images/landings/jaen/ubeda_baeza.jpg";
 import { useFetchWeather } from "../hooks/useFetchWeather";
 import ProvinceWeather from "../components/Weather/ProvinceWeather";
+import Cluster from "../components/Cluster/Cluster";
 
 function JaenPage() {
   const lat = 37.7797; // Latitud de Jaén

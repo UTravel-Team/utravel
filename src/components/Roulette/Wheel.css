@@ -1,5 +1,6 @@
 .wheel-container {
     position: relative;
+    padding: 5px;
   }
   
   .spin-button {

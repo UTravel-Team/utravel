@@ -17,7 +17,7 @@ const HomeProvincesNews = () => {
 
     const interval = setInterval(() => {
       setCurrentPhrase(getRandomPhrase());
-    }, 10000);
+    }, 3000);
 
     return () => clearInterval(interval);
   }, []);
